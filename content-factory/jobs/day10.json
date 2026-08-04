@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "day": 10,
+  "publish_date": "2026-08-10",
+  "folder": "2026-08-10_D10_NOTHING_HAPPENED_YET",
+  "theme": "Liminal hotel corridor",
+  "cover_text": "NOTHING HAPPENED\nYET",
+  "output_stem": "YA_D10_liminal_hotel_corridor_v01",
+  "sources": [
+    {"provider_id": 15201563, "page_url": "https://www.pexels.com/video/point-of-view-of-a-person-walking-along-a-creepy-hotel-corridor-15201563/", "download_url": "https://www.pexels.com/download/video/15201563/", "creator": "Darina Evstafeva", "filename": "pexels_15201563_darina_evstafeva_hotel_corridor.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 6.0},
+    {"provider_id": 6114429, "page_url": "https://www.pexels.com/video/lamp-on-a-side-table-lighting-up-6114429/", "download_url": "https://www.pexels.com/download/video/6114429/", "creator": "cottonbro studio", "filename": "pexels_6114429_cottonbro_bedside_lamp.mp4", "offset_seconds": 0.6, "clip_duration_seconds": 3.0}
+  ],
+  "render": {
+    "duration_seconds": 9,
+    "fps": 30,
+    "template_version": "liminal-suspense-v1",
+    "cover_source_index": 0,
+    "cover_offset_seconds": 1.4,
+    "text_events": [
+      {"start": 0.3, "end": 3.6, "text": "A place between arriving and belonging."},
+      {"start": 7.0, "end": 9.0, "text": "Exciting or lonely?"}
+    ]
+  },
+  "audio_score": {"duration_seconds": 9, "seed": 20260810, "bpm": 54, "root_midi": 38, "scale": "minor_pentatonic", "mood": "liminal_hotel_suspense", "ambience": 0.34, "pulse": 0.04, "melody": 0.02, "impacts": 0.10, "sample_rate": 48000},
+  "production_notes": [
+    "Hold the corridor push-in for six seconds, then cut once to the warm bedside-lamp detail.",
+    "Use the original procedural ambience for subtle suspense; do not add horror stingers.",
+    "The title implies anticipation, not that a real incident occurred in this stock location.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "Hotels are strange: temporary rooms that sometimes stay in memory longer than home.", "cta": "Do hotel corridors feel exciting or lonely to you?", "hashtags": ["#yulaariastudio", "#LiminalSpaces", "#HotelMood", "#CinematicInterior", "#TravelThoughts"], "music_search": "In Instagram or Edits, search for subtle suspense ambience, liminal room tone, or restrained cinematic drone.", "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.", "schedule_notes": "Instagram Reel; use NOTHING HAPPENED YET as the cover and keep suspense understated."},
+    "facebook": {"caption": "Hotels are strange: temporary rooms that sometimes stay in memory longer than home. A corridor can feel like the space between arriving and belonging.", "cta": "Exciting or lonely?", "hashtags": ["#yulaariastudio", "#HotelMood", "#LiminalSpaces"], "music_search": "Use the original procedural ambience or a Meta-cleared subtle suspense track.", "music_reuse_policy": "Confirm Facebook clearance before reusing Instagram music.", "schedule_notes": "Facebook Reel with the longer reflective caption; avoid sensational framing."},
+    "tiktok": {"caption": "POV: the hotel corridor feels like the beginning of a story that never happened.", "cta": "Exciting or lonely?", "hashtags": ["#yulaariastudio", "#LiminalSpace", "#HotelTok", "#CinematicTok"], "music_search": "Choose a restrained liminal or suspense sound inside TikTok; avoid loud horror trends.", "music_reuse_policy": "Keep TikTok-library music on TikTok; use the procedural or silent master elsewhere.", "schedule_notes": "Upload the clean edit directly; the slow corridor movement is the hook."},
+    "youtube_shorts": {"title": "A place between arriving and belonging", "caption": "A quiet hotel corridor, a temporary room, and the strange memory of passing through.", "cta": "Do hotel corridors feel exciting or lonely?", "hashtags": ["#yulaariastudio", "#LiminalSpaces", "#Shorts"], "music_search": "Use the original procedural ambience or a subtle suspense cue from the Shorts library.", "music_reuse_policy": "Do not reuse Shorts-library audio outside YouTube without separate permission.", "schedule_notes": "Use the corridor cover and keep the title reflective, not sensational."},
+    "threads": {"caption": "Hotels are strange: temporary rooms that sometimes stay in memory longer than home. Do their corridors feel exciting or lonely to you?", "cta": "Choose the feeling.", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent or procedural-audio master.", "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.", "schedule_notes": "Text-led post; attach the clean corridor edit if it deepens the mood."},
+    "x": {"caption": "A hotel corridor is a place between arriving and belonging.", "cta": "Exciting or lonely?", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent master or original procedural score.", "music_reuse_policy": "Do not reuse licensed platform music on X.", "schedule_notes": "Post the clean 9-second edit with the concise question."}
+  },
+  "stories": {"frames": ["A place between arriving and belonging.", "How do hotel corridors feel?"], "sticker": "Poll: EXCITING / LONELY", "timing": "Publish after the Reel on Instagram and Facebook."},
+  "checklist": [
+    "Watch both MP4 masters and confirm the single corridor-to-room-detail cut feels intentional.",
+    "Inspect cover and contact sheet; confirm the long cover title is readable and centered.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 9-second duration, and audio-stream checks passed.",
+    "Listen once with procedural suspense ambience and once silent; avoid an exaggerated horror tone.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, cover, date, time zone, and preview before scheduling."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "YULAARIA000004",
+  "name": "Yula Aria - Approved Social Scheduler (INACTIVE)",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [{"field": "minutes", "minutesInterval": 5}]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [0, -96],
+      "id": "86f2ddbf-d617-43fe-b20b-8c3694e56281",
+      "name": "Every 5 Minutes"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 96],
+      "id": "c884ac8b-45c3-43bd-b352-e92171691290",
+      "name": "Manual Test Trigger"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8765/v1/schedule/dispatch-due",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ limit: 10, live: true }) }}",
+        "options": {"timeout": 900000}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [288, 0],
+      "id": "9205a342-4159-47d0-9ff3-2e4f40de3980",
+      "name": "Dispatch Approved Due Posts",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "YULAWORKERHEADER001",
+          "name": "Yula Local Worker Header"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 10000,
+      "onError": "stopWorkflow"
+    }
+  ],
+  "connections": {
+    "Every 5 Minutes": {"main": [[{"node": "Dispatch Approved Due Posts", "type": "main", "index": 0}]]},
+    "Manual Test Trigger": {"main": [[{"node": "Dispatch Approved Due Posts", "type": "main", "index": 0}]]}
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Warsaw",
+    "errorWorkflow": "YULAARIA000002",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true
+  },
+  "staticData": null,
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "yulaFactoryVersion": "0.3.0",
+    "binaryPolicy": "JSON only; platform credentials and media remain on the Windows worker",
+    "activationGate": "Keep inactive until credentials, exact-digest approval, idempotency, provider tests, and the private error workflow are verified."
+  },
+  "tags": []
+}

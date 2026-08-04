@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "day": 7,
+  "publish_date": "2026-08-07",
+  "folder": "2026-08-07_D07_SUNDAY_SLOWLY",
+  "theme": "Sunday slow living",
+  "cover_text": "SUNDAY, SLOWLY",
+  "output_stem": "YA_D07_sunday_slow_living_v01",
+  "sources": [
+    {"provider_id": 31035935, "page_url": "https://www.pexels.com/video/sunlight-through-curtain-in-cozy-room-31035935/", "download_url": "https://www.pexels.com/download/video/31035935/", "creator": "Yesim Colak", "filename": "pexels_31035935_yesim_colak_sunlit_curtain.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.3},
+    {"provider_id": 6704807, "page_url": "https://www.pexels.com/video/a-woman-opening-a-window-curtains-6704807/", "download_url": "https://www.pexels.com/download/video/6704807/", "creator": "Yan Krukau", "filename": "pexels_6704807_yan_krukau_opening_curtains.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.3},
+    {"provider_id": 16660043, "page_url": "https://www.pexels.com/video/reading-a-book-and-drinking-tea-by-the-window-16660043/", "download_url": "https://www.pexels.com/download/video/16660043/", "creator": "Zeynegul Makhanova", "filename": "pexels_16660043_zeynegul_makhanova_book_tea.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 3.3},
+    {"provider_id": 31960018, "page_url": "https://www.pexels.com/video/cozy-cabin-with-sunlight-streaming-inside-31960018/", "download_url": "https://www.pexels.com/download/video/31960018/", "creator": "Gulru Sude", "filename": "pexels_31960018_gulru_sude_cozy_cabin.mp4", "offset_seconds": 0.4, "clip_duration_seconds": 3.3}
+  ],
+  "render": {
+    "duration_seconds": 12,
+    "transition_seconds": 0.4,
+    "fps": 30,
+    "template_version": "slow-crossfade-v1",
+    "cover_source_index": 0,
+    "cover_offset_seconds": 1.3,
+    "text_events": [
+      {"start": 0.3, "end": 3.2, "text": "Not every day needs a story."},
+      {"start": 9.0, "end": 12.0, "text": "Your perfect Sunday, in three words?"}
+    ]
+  },
+  "audio_score": {"duration_seconds": 12, "seed": 20260807, "bpm": 58, "root_midi": 48, "scale": "major_pentatonic", "mood": "warm_slow_sunday", "ambience": 0.30, "pulse": 0.03, "melody": 0.08, "impacts": 0.01, "sample_rate": 48000},
+  "production_notes": [
+    "Four quiet clips are joined with 0.4-second cross-dissolves for a 12-second final duration.",
+    "Keep motion low and let the longest visual ideas breathe; avoid speed ramps and busy effects.",
+    "The procedural score is deliberately soft. The silent master is equally valid for this concept.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "Some days are only meant to be lived slowly.", "cta": "What does a perfect quiet Sunday look like to you?", "hashtags": ["#yulaariastudio", "#SlowSunday", "#SlowLiving", "#QuietMoments", "#SundayMood"], "music_search": "In Instagram or Edits, search for soft acoustic morning, warm ambient piano, or quiet Sunday instrumental.", "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.", "schedule_notes": "Publish as a soft Reel; use SUNDAY, SLOWLY as the cover and preserve the unhurried pacing."},
+    "facebook": {"caption": "Some days are only meant to be lived slowly. No pressure to make them productive, memorable, or impressive.", "cta": "What does your perfect quiet Sunday look like?", "hashtags": ["#yulaariastudio", "#SlowSunday", "#SlowLiving"], "music_search": "Use the original procedural score or a Meta-cleared soft acoustic track.", "music_reuse_policy": "Confirm Facebook clearance before reusing Instagram music.", "schedule_notes": "Facebook Reel with the longer reflective caption; avoid auto-enhancement that increases contrast too much."},
+    "tiktok": {"caption": "A quiet Sunday that does not need to become anything else.", "cta": "Describe yours in three words.", "hashtags": ["#yulaariastudio", "#SlowLiving", "#SundayReset", "#CalmTok"], "music_search": "Choose a calm-life or soft-morning sound inside TikTok; keep volume below the visual mood.", "music_reuse_policy": "Keep TikTok-library music on TikTok; use the procedural or silent master elsewhere.", "schedule_notes": "Upload as a calm-life edit with no template transitions beyond the built-in dissolves."},
+    "youtube_shorts": {"title": "Not every day needs a story", "caption": "A twelve-second reminder to leave some days unhurried.", "cta": "Describe your perfect Sunday in three words.", "hashtags": ["#yulaariastudio", "#SlowLiving", "#Shorts"], "music_search": "Use the original score or a quiet acoustic track from the Shorts library.", "music_reuse_policy": "Do not reuse Shorts-library audio outside YouTube without separate permission.", "schedule_notes": "Keep the clean cover title and allow the first sunlit shot to hold attention."},
+    "threads": {"caption": "Not every day needs to become productive, memorable or impressive. Describe your perfect Sunday in three words.", "cta": "Three words only.", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent or procedural-audio master.", "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.", "schedule_notes": "Text-led post; attach the quiet Reel only if it supports the thought."},
+    "x": {"caption": "Not every day needs to become productive, memorable or impressive.", "cta": "Describe your perfect Sunday in three words.", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent master or original procedural score.", "music_reuse_policy": "Do not reuse licensed platform music on X.", "schedule_notes": "Post the thought first; attach the clean 12-second video if desired."}
+  },
+  "stories": {"frames": ["Not every day needs a story.", "Describe your perfect Sunday in three words."], "sticker": "Question sticker: PERFECT SUNDAY?", "timing": "Publish after the Reel on Instagram and Facebook."},
+  "checklist": [
+    "Watch both MP4 masters from start to finish; confirm all three cross-dissolves are clean and calm.",
+    "Inspect cover and contact sheet; confirm text is readable over the sunlit room.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 12-second duration, and audio-stream checks passed.",
+    "Listen once with the procedural score and once silent; choose the quieter option per platform.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, cover, date, time zone, and preview before scheduling."
+  ]
+}

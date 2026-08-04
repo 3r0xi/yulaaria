@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "day": 8,
+  "publish_date": "2026-08-08",
+  "folder": "2026-08-08_D08_BETWEEN_HERE_AND_THERE",
+  "theme": "Airport transition",
+  "cover_text": "BETWEEN HERE / THERE",
+  "output_stem": "YA_D08_airport_transition_v01",
+  "sources": [
+    {"provider_id": 20606517, "page_url": "https://www.pexels.com/video/people-are-walking-through-an-airport-terminal-with-luggage-20606517/", "download_url": "https://www.pexels.com/download/video/20606517/", "creator": "K", "filename": "pexels_20606517_k_airport_departure_board.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.5},
+    {"provider_id": 36302968, "page_url": "https://www.pexels.com/video/traveler-walking-with-luggage-indoors-36302968/", "download_url": "https://www.pexels.com/download/video/36302968/", "creator": "Alex Dos Santos", "filename": "pexels_36302968_alex_dos_santos_traveler_luggage.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 3.5},
+    {"provider_id": 12699722, "page_url": "https://www.pexels.com/video/window-view-from-an-airplane-flying-above-the-clouds-12699722/", "download_url": "https://www.pexels.com/download/video/12699722/", "creator": "Deepa Godiawala", "filename": "pexels_12699722_deepa_godiawala_plane_window.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.5}
+  ],
+  "render": {
+    "duration_seconds": 10.5,
+    "fps": 30,
+    "template_version": "departure-filmframe-v1",
+    "cover_source_index": 0,
+    "cover_offset_seconds": 1.2,
+    "text_events": [
+      {"start": 0.0, "end": 3.4, "text": "Some versions of you only exist after departure."},
+      {"start": 8.0, "end": 10.5, "text": "Window or aisle?"}
+    ]
+  },
+  "audio_score": {"duration_seconds": 10.5, "seed": 20260808, "bpm": 72, "root_midi": 45, "scale": "minor_pentatonic", "mood": "hopeful_departure_transition", "ambience": 0.20, "pulse": 0.08, "melody": 0.08, "impacts": 0.05, "sample_rate": 48000},
+  "production_notes": [
+    "Open on the departure-board terminal view, move to the traveler, and end above the clouds.",
+    "Keep the edit cinematic and restrained; no heavy effects or fast transitions.",
+    "The procedural score supplies a gentle transition pulse without copyrighted music.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "Leaving is not always running away. Sometimes it is how you meet the next version of yourself.", "cta": "Window seat or aisle?", "hashtags": ["#yulaariastudio", "#AirportMood", "#Departure", "#TravelReels", "#CinematicTravel"], "music_search": "In Instagram or Edits, search for cinematic departure, hopeful ambient build, or restrained travel pulse.", "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.", "schedule_notes": "Use the Reel with the full opening sentence visible immediately; select BETWEEN HERE / THERE as the cover."},
+    "facebook": {"caption": "Leaving is not always running away. Sometimes it is how you meet the next version of yourself. Are you a window-seat person or an aisle-seat person?", "cta": "Window or aisle?", "hashtags": ["#yulaariastudio", "#Travel", "#Departure"], "music_search": "Use the original procedural score or a Meta-cleared cinematic travel track.", "music_reuse_policy": "Confirm Facebook clearance before reusing Instagram music.", "schedule_notes": "Facebook Reel; keep the reflective copy intact and use the same cover."},
+    "tiktok": {"caption": "POV: you booked the ticket instead of overthinking it.", "cta": "Window or aisle?", "hashtags": ["#yulaariastudio", "#TravelTok", "#AirportTok", "#BookTheTicket"], "music_search": "Choose a current hopeful travel sound or cinematic departure build inside TikTok.", "music_reuse_policy": "Keep TikTok-library music on TikTok; use the procedural master elsewhere.", "schedule_notes": "Use the POV line as the post caption; do not add template effects over the existing edit."},
+    "youtube_shorts": {"title": "Some versions of you only exist after departure", "caption": "From the terminal to the clouds in one quiet transition.", "cta": "Window seat or aisle?", "hashtags": ["#yulaariastudio", "#Travel", "#Shorts"], "music_search": "Use the original score or a subtle cinematic track from the Shorts library.", "music_reuse_policy": "Do not reuse Shorts-library audio outside YouTube without separate permission.", "schedule_notes": "Keep the opening title readable and use the airport-terminal cover."},
+    "threads": {"caption": "Airports are peaceful when you are not late. Some versions of you only exist after departure. Window or aisle?", "cta": "Choose your seat.", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent or procedural-audio master.", "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.", "schedule_notes": "Lead with the airport observation; attach the clean video as the visual response."},
+    "x": {"caption": "Airports are peaceful when you are not late.", "cta": "Window or aisle?", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent master or original procedural score.", "music_reuse_policy": "Do not reuse licensed platform music on X.", "schedule_notes": "Short text-led post with the clean 10.5-second video."}
+  },
+  "stories": {"frames": ["Some versions of you only exist after departure.", "Your seat?"], "sticker": "Poll: WINDOW / AISLE", "timing": "Publish after the Reel on Instagram and Facebook."},
+  "checklist": [
+    "Watch both MP4 masters and confirm the terminal-to-traveler-to-clouds progression is clear.",
+    "Inspect cover and contact sheet; confirm the long opening text is readable inside safe margins.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 10.5-second duration, and audio-stream checks passed.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, cover, date, time zone, and preview before scheduling."
+  ]
+}

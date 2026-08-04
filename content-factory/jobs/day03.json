@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "day": 3,
+  "publish_date": "2026-08-03",
+  "folder": "2026-08-03_D03_SLOW_MORNING",
+  "theme": "Slow coffee morning",
+  "cover_text": "SLOW MORNING",
+  "output_stem": "YA_D03_slow_coffee_morning_v01",
+  "sources": [
+    {
+      "provider_id": 9786287,
+      "page_url": "https://www.pexels.com/video/a-woman-drinking-coffee-in-the-morning-9786287/",
+      "download_url": "https://www.pexels.com/download/video/9786287/",
+      "creator": "Marcus Aurelius",
+      "filename": "pexels_9786287_marcus_aurelius_morning_coffee.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 1.6
+    },
+    {
+      "provider_id": 5269588,
+      "page_url": "https://www.pexels.com/video/a-person-taking-a-cup-of-coffee-5269588/",
+      "download_url": "https://www.pexels.com/download/video/5269588/",
+      "creator": "Yuhang Qian",
+      "filename": "pexels_5269588_yuhang_qian_latte_table.mp4",
+      "offset_seconds": 0.8,
+      "clip_duration_seconds": 1.6
+    },
+    {
+      "provider_id": 34504418,
+      "page_url": "https://www.pexels.com/video/relaxing-cafe-scene-with-coffee-and-book-reading-34504418/",
+      "download_url": "https://www.pexels.com/download/video/34504418/",
+      "creator": "khezez",
+      "filename": "pexels_34504418_khezez_cafe_book.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 1.6
+    },
+    {
+      "provider_id": 4973718,
+      "page_url": "https://www.pexels.com/video/a-cup-of-coffee-and-a-book-on-a-table-4973718/",
+      "download_url": "https://www.pexels.com/download/video/4973718/",
+      "creator": "Taryn Elliott",
+      "filename": "pexels_4973718_taryn_elliott_coffee_book.mp4",
+      "offset_seconds": 0.8,
+      "clip_duration_seconds": 1.6
+    },
+    {
+      "provider_id": 6901295,
+      "page_url": "https://www.pexels.com/video/person-making-coffee-6901295/",
+      "download_url": "https://www.pexels.com/download/video/6901295/",
+      "creator": "Mikhail Nilov",
+      "filename": "pexels_6901295_mikhail_nilov_coffee_ritual.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 1.6
+    }
+  ],
+  "render": {
+    "duration_seconds": 8,
+    "fps": 30,
+    "template_version": "quiet-luxury-carousel-v1",
+    "cover_source_index": 1,
+    "cover_offset_seconds": 1.0,
+    "carousel": {
+      "enabled": true,
+      "source_indices": [0, 1, 2, 3, 4],
+      "offset_seconds": [1.2, 1.0, 1.2, 1.0, 1.2]
+    },
+    "text_events": [
+      {"start": 0.0, "end": 1.6, "text": "Some mornings should stay slow."},
+      {"start": 6.4, "end": 8.0, "text": "Alone or good company?"}
+    ]
+  },
+  "audio_score": {
+    "duration_seconds": 8,
+    "seed": 20260803,
+    "bpm": 68,
+    "root_midi": 48,
+    "scale": "major_pentatonic",
+    "mood": "warm_unhurried_morning",
+    "ambience": 0.28,
+    "pulse": 0.05,
+    "melody": 0.08,
+    "impacts": 0.03,
+    "sample_rate": 48000
+  },
+  "production_notes": [
+    "Exports: five 1080 x 1350 carousel frames plus an 8-second 1080 x 1920 motion slideshow.",
+    "Keep the warm neutral grade consistent and typography minimal.",
+    "Use the silent master for platform-native music; the procedural score is a reusable fallback.",
+    "Curated Pexels material must not be described as personally filmed or photographed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {
+      "caption": "Coffee, window light, and nowhere urgent to be. A small luxury that does not need a reservation.",
+      "cta": "Coffee alone or coffee with good company?",
+      "hashtags": ["#yulaariastudio", "#SlowMorning", "#CoffeeMood", "#QuietLuxury", "#VisualDiary"],
+      "music_search": "In Instagram or Edits, search for warm acoustic ambience or soft morning piano; add it after upload.",
+      "music_reuse_policy": "Reuse on Facebook only if Meta confirms the selected track is cleared for both placements.",
+      "schedule_notes": "Primary format: five-image 4:5 carousel. Optional Reel: use the clean 8-second motion slideshow."
+    },
+    "facebook": {
+      "caption": "Coffee, window light, and nowhere urgent to be. Some mornings feel luxurious simply because they are allowed to unfold slowly. Coffee alone or with company?",
+      "cta": "Tell me what your ideal slow morning looks like.",
+      "hashtags": ["#yulaariastudio", "#SlowMorning", "#VisualDiary"],
+      "music_search": "For the slideshow Reel, use the same Meta-cleared track as Instagram or keep the original procedural score.",
+      "music_reuse_policy": "Confirm Facebook clearance inside Meta before reusing Instagram music.",
+      "schedule_notes": "Publish the five-photo post or slideshow Reel; do not publish both at the same time."
+    },
+    "tiktok": {
+      "caption": "A slow morning feels expensive even when all it costs is coffee.",
+      "cta": "Photo mode or quiet slideshow - which fits this mood better?",
+      "hashtags": ["#yulaariastudio", "#SlowLiving", "#CoffeeTok", "#MorningMood"],
+      "music_search": "Choose a current soft morning, cafe jazz, or acoustic sound inside TikTok; use the Commercial Music Library when required.",
+      "music_reuse_policy": "Keep TikTok-library music on TikTok; use the clean or procedural-audio master elsewhere.",
+      "schedule_notes": "Prefer TikTok Photo Mode with the five carousel frames; the 8-second slideshow is the fallback."
+    },
+    "youtube_shorts": {
+      "title": "SLOW MORNING | Coffee, light, no rush",
+      "caption": "Coffee, window light, and nowhere urgent to be. A small visual pause for an unhurried morning.",
+      "cta": "Coffee alone or with good company?",
+      "hashtags": ["#yulaariastudio", "#SlowMorning", "#Shorts"],
+      "music_search": "Use the original procedural score or choose a soft instrumental inside the Shorts audio library.",
+      "music_reuse_policy": "Do not reuse a Shorts-library track outside YouTube without separate permission.",
+      "schedule_notes": "Upload the clean 8-second vertical slideshow and use a distinct title."
+    },
+    "threads": {
+      "caption": "A slow morning feels expensive even when all it costs is coffee. Coffee alone, or coffee with someone who understands silence?",
+      "cta": "Reply with alone or company.",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use one carousel still; no music is necessary.",
+      "music_reuse_policy": "Do not carry licensed platform music into Threads.",
+      "schedule_notes": "Text-led post; attach carousel frame 2 or 4 only if it strengthens the post."
+    },
+    "x": {
+      "caption": "A slow morning feels expensive even when all it costs is coffee.",
+      "cta": "Coffee alone or good company?",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use one still or the procedural-audio master; music is optional.",
+      "music_reuse_policy": "Do not reuse licensed TikTok, Meta, or Shorts music on X.",
+      "schedule_notes": "Attach the strongest still or the clean 8-second slideshow; keep the post concise."
+    }
+  },
+  "stories": {
+    "frames": ["Some mornings should stay slow.", "Coffee alone or good company?"],
+    "sticker": "Poll: ALONE / COMPANY",
+    "timing": "Publish after the main Instagram carousel; reuse on Facebook Stories if desired."
+  },
+  "checklist": [
+    "Open the five carousel JPGs, slideshow masters, cover, and contact sheet.",
+    "Confirm all five carousel frames are 1080 x 1350 and visually coherent.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm the video master is 1080 x 1920, H.264, 8 seconds, and watermark-free.",
+    "Choose either carousel or Reel as the primary Meta post; do not duplicate both immediately.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, cover, date, time zone, and preview before scheduling."
+  ]
+}

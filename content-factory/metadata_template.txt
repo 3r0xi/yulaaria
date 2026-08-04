@@ -1,0 +1,132 @@
+YULA ARIA - DAILY PUBLISHING METADATA
+=====================================
+
+Day:
+Publish date:
+Theme:
+Cover text:
+Notion page:
+
+VIDEO / REEL
+============
+
+Files:
+- Main cross-platform video:
+- YouTube companion Short:
+- Cover image:
+
+INSTAGRAM
+Caption:
+CTA:
+Hashtags:
+Music suggestion:
+Scheduling:
+
+FACEBOOK
+Caption:
+CTA:
+Hashtags:
+Music suggestion:
+Scheduling:
+
+TIKTOK
+Caption:
+CTA:
+Hashtags:
+Music suggestion:
+Scheduling:
+
+YOUTUBE SHORTS - MAIN
+Title:
+Caption:
+CTA:
+Hashtags:
+Music suggestion:
+Scheduling:
+
+YOUTUBE SHORTS - COMPANION
+Title:
+Caption:
+CTA:
+Hashtags:
+Music suggestion:
+Scheduling:
+
+THREADS
+Caption:
+CTA:
+Hashtags:
+Scheduling:
+
+X
+Caption:
+CTA:
+Hashtags:
+Scheduling:
+
+PHOTO / CAROUSEL
+================
+
+Files:
+- Instagram/Facebook 4:5 folder:
+- TikTok 9:16 folder:
+
+INSTAGRAM
+Caption:
+CTA:
+Hashtags:
+Format:
+Scheduling:
+
+FACEBOOK
+Caption:
+CTA:
+Hashtags:
+Format:
+Scheduling:
+
+TIKTOK
+Caption:
+CTA:
+Hashtags:
+Format:
+Scheduling:
+
+THREADS
+Caption:
+CTA:
+Hashtags:
+Format:
+Scheduling:
+
+X
+Caption:
+CTA:
+Hashtags:
+Format:
+Scheduling:
+
+STORY COMPANION
+Frame 1:
+Frame 2:
+Frame 3:
+Sticker:
+Timing:
+
+PRE-SCHEDULING CHECKLIST
+[ ] Correct account, date, time, and timezone
+[ ] Correct video/photo assets selected
+[ ] Caption, CTA, hashtags, and cover checked
+[ ] Music and preview checked where applicable
+[ ] Source/license evidence retained locally
+[ ] Scheduled-post confirmation recorded
+
+SCHEDULING RECORD
+Instagram:
+Facebook:
+TikTok:
+YouTube main:
+YouTube companion:
+Threads:
+X:
+Operator notes:

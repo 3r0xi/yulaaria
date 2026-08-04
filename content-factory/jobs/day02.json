@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "day": 2,
+  "publish_date": "2026-08-02",
+  "folder": "2026-08-02_D02_TWO_VERSIONS",
+  "theme": "Reflections that rearrange a place",
+  "cover_text": "TWO VERSIONS",
+  "output_stem": "YA_D02_reflections_that_rearrange_a_place_v01",
+  "notion_page_url": "https://app.notion.com/p/3a768d57849d81eea297f662db5f5712",
+  "sources": [
+    {
+      "provider_id": 35213850,
+      "page_url": "https://www.pexels.com/video/modern-glass-building-entrance-with-reflections-35213850/",
+      "download_url": "https://www.pexels.com/download/video/35213850/",
+      "creator": "Val A",
+      "filename": "pexels_35213850_val_a_glass_building_reflection.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 2.25
+    },
+    {
+      "provider_id": 31687572,
+      "page_url": "https://www.pexels.com/video/lonely-man-reflected-in-urban-mirror-scene-31687572/",
+      "download_url": "https://www.pexels.com/download/video/31687572/",
+      "creator": "Burak Bahadir Buyukkilinc",
+      "filename": "pexels_31687572_burak_bahadir_urban_mirror.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 2.25
+    },
+    {
+      "provider_id": 36419680,
+      "page_url": "https://www.pexels.com/video/reflections-in-a-puddle-on-a-city-sidewalk-36419680/",
+      "download_url": "https://www.pexels.com/download/video/36419680/",
+      "creator": "Canan Ildeniz",
+      "filename": "pexels_36419680_canan_ildeniz_city_puddle.mp4",
+      "offset_seconds": 0.25,
+      "clip_duration_seconds": 2.25
+    },
+    {
+      "provider_id": 34576509,
+      "page_url": "https://www.pexels.com/video/reflection-of-a-person-in-puddle-on-street-34576509/",
+      "download_url": "https://www.pexels.com/download/video/34576509/",
+      "creator": "Ozgur Surmeli",
+      "filename": "pexels_34576509_ozgur_surmeli_person_puddle.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 2.25
+    }
+  ],
+  "render": {
+    "duration_seconds": 9,
+    "fps": 30,
+    "template_version": "details-v2-generic",
+    "cover_source_index": 1,
+    "cover_offset_seconds": 1.2,
+    "text_events": [
+      {"start": 0.0, "end": 0.8, "text": "Wait for the second version."},
+      {"start": 2.3, "end": 4.8, "text": "One place. Two versions."},
+      {"start": 7.5, "end": 9.0, "text": "Glass or puddles?"}
+    ]
+  },
+  "audio_score": {
+    "duration_seconds": 9,
+    "seed": 20260802,
+    "bpm": 76,
+    "root_midi": 45,
+    "scale": "minor_pentatonic",
+    "mood": "glassy_cinematic_calm",
+    "ambience": 0.28,
+    "pulse": 0.1,
+    "melody": 0.06,
+    "impacts": 0.1,
+    "sample_rate": 48000
+  },
+  "production_notes": [
+    "Master: 1080 x 1920, 30 fps, H.264, 9 seconds.",
+    "Structure: glass, mirror, clean puddle, broken puddle; simple cuts and one consistent grade.",
+    "Preserve a clean silent master; add discovery music natively on each platform.",
+    "The original procedural score is a reusable fallback and does not imitate a named artist or song.",
+    "Curated Pexels material must not be described as personally filmed or photographed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {
+      "caption": "A reflection can make an ordinary corner look briefly undecided. Glass or puddles: which makes the better frame?",
+      "cta": "Send this to the friend who always spots the small things.",
+      "hashtags": ["#yulaariastudio", "#Reflections", "#UrbanDetails", "#VisualStorytelling", "#CinematicMood"],
+      "music_search": "In Instagram or Edits, search for a minimal glassy ambient pulse; add it after upload.",
+      "music_reuse_policy": "Reuse on Facebook only if Meta confirms the chosen track is cleared for both placements.",
+      "schedule_notes": "Instagram Reel; use the strongest reflection as the TWO VERSIONS cover."
+    },
+    "facebook": {
+      "caption": "A reflection can make an ordinary corner look briefly undecided. This version gives the idea a little more room and keeps the edit simple enough to watch twice. Glass or puddles: which makes the better frame?",
+      "cta": "Glass or puddles: which makes the better frame?",
+      "hashtags": ["#yulaariastudio", "#UrbanDetails", "#VisualDiary"],
+      "music_search": "Use the same Meta-cleared track as Instagram, or use the original procedural score.",
+      "music_reuse_policy": "Confirm Facebook clearance in Meta; otherwise keep the original score or silent master.",
+      "schedule_notes": "Facebook Reel; do not schedule the optional photo comparison as a second feed post yet."
+    },
+    "tiktok": {
+      "caption": "A reflection can make an ordinary corner look briefly undecided. Quick vote: glass or puddles?",
+      "cta": "Type glass or puddle without replaying first.",
+      "hashtags": ["#yulaariastudio", "#Reflections", "#CinematicTok"],
+      "music_search": "Choose a current dreamy ambient or glassy pulse inside TikTok; use the Commercial Music Library when required.",
+      "music_reuse_policy": "Keep a TikTok library track on TikTok; use the original procedural score on X and Threads.",
+      "schedule_notes": "Use CapCut search phrase 'mirror reflection transition clean aesthetic' only if it stays subtle; add final music natively."
+    },
+    "youtube_shorts": {
+      "title": "TWO VERSIONS | A 9-second visual study",
+      "caption": "A compact visual study of reflections that rearrange a place, built around one coherent curated sequence. Glass or puddles: which makes the better frame?",
+      "cta": "Pinned comment: Glass or puddles: which makes the better frame?",
+      "hashtags": ["#yulaariastudio", "#Reflections", "#Shorts"],
+      "music_search": "Use the original procedural score, or select a suitable track inside the Shorts audio library.",
+      "music_reuse_policy": "Do not reuse a Shorts-library track outside YouTube unless a separate license permits it.",
+      "schedule_notes": "Use the clean vertical master and keep total duration at 9 seconds."
+    },
+    "threads": {
+      "caption": "A reflection can make an ordinary corner look briefly undecided. Glass or puddles: which makes the better frame? I have a theory, but I am listening first.",
+      "cta": "Reply with glass or puddle.",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use the original procedural score or the silent master.",
+      "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.",
+      "schedule_notes": "Post the same clean master with concise native copy."
+    },
+    "x": {
+      "caption": "A reflection can make an ordinary corner look briefly undecided. Glass or puddles: which makes the better frame?",
+      "cta": "Reply with glass or puddle.",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use the original procedural score or the silent master.",
+      "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into X.",
+      "schedule_notes": "Upload the clean master directly and keep copy concise."
+    }
+  },
+  "stories": {
+    "frames": ["Wait for the second version.", "Choose the reflection."],
+    "sticker": "Poll: Glass / Puddle",
+    "timing": "Publish immediately after the main Reel on Instagram and Facebook."
+  },
+  "checklist": [
+    "Open both MP4 masters and the contact sheet; confirm the four reflection shots feel coherent.",
+    "Confirm source pages, creators, Pexels license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 9-second duration, and audio-stream checks passed in qa_report.txt.",
+    "Check text safe areas and readability of the TWO VERSIONS cover on a phone.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music only inside that platform and record the actual track below.",
+    "Verify caption, CTA, hashtags, thumbnail, audience, date, time zone, and preview before scheduling."
+  ]
+}

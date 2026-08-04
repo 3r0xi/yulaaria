@@ -1,0 +1,74 @@
+{
+  "id": "YULAARIA000003",
+  "name": "Yula Aria - Low-Token Local Job Runner (INACTIVE)",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "id": "0f8b632c-d671-4cf2-bfa2-d94b13bb3248",
+      "name": "Manual Approval-Gated Trigger"
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8765/health",
+        "options": {"timeout": 15000}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [256, 0],
+      "id": "152eb942-fc4b-478a-9c8a-4334fc638be1",
+      "name": "Check Local Worker",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "onError": "stopWorkflow"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8765/v1/jobs/run",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ job_path: 'G:\\\\My Drive\\\\Codex_n8n\\\\Yula Aria\\\\Content Sharing Plan\\\\_factory\\\\jobs\\\\day02.json' }) }}",
+        "options": {"timeout": 900000}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [512, 0],
+      "id": "5de7bd3b-6944-4b57-8e73-895ae04bd50d",
+      "name": "Run Local Day Job",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "onError": "stopWorkflow"
+    }
+  ],
+  "connections": {
+    "Manual Approval-Gated Trigger": {
+      "main": [[{"node": "Check Local Worker", "type": "main", "index": 0}]]
+    },
+    "Check Local Worker": {
+      "main": [[{"node": "Run Local Day Job", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Warsaw",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true
+  },
+  "staticData": null,
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "yulaFactoryVersion": "0.2.0",
+    "binaryPolicy": "JSON paths only; media stays on the Windows worker",
+    "activationGate": "Keep inactive. Configure the Authorization header credential, start the worker, test a cached job, inspect outputs, and assign the error workflow in the UI before adding any schedule."
+  },
+  "tags": []
+}

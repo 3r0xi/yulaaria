@@ -1,0 +1,57 @@
+{
+  "id": "YULAARIA000002",
+  "name": "Yula Aria — Content Factory Error Handler (INACTIVE)",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "id": "1cd1f635-acde-49d2-a4b0-63bce34b23c2",
+      "name": "Content Factory Error Trigger"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8765/v1/errors/log",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ workflow_name: $json.workflow?.name || 'unknown', execution_id: $json.execution?.id || '', failed_node: $json.execution?.lastNodeExecuted || '', error_name: $json.execution?.error?.name || 'Error', error_message: $json.execution?.error?.message || 'Unknown workflow error' }) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [288, 0],
+      "id": "2eb73bbf-a9aa-4bc1-8717-e4e8bc2fcfb7",
+      "name": "Write Private Error Log",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "onError": "stopWorkflow"
+    }
+  ],
+  "connections": {
+    "Content Factory Error Trigger": {
+      "main": [[{"node": "Write Private Error Log", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Warsaw",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true
+  },
+  "staticData": null,
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "yulaFactoryVersion": "0.1.0",
+    "activationGate": "Assign this workflow in Workflow Settings only after its credential and logging endpoint are tested."
+  },
+  "tags": []
+}

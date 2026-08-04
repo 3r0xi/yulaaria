@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yula-content-factory"
+version = "0.4.1"
+description = "Local, approval-gated Yula Aria content, music, and publishing worker"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+publishing = [
+  "boto3>=1.34",
+  "google-api-python-client>=2.0",
+  "google-auth>=2.0",
+  "google-auth-oauthlib>=1.0",
+  "google-auth-httplib2>=0.2",
+]
+
+[project.scripts]
+yula-factory = "yula_factory.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

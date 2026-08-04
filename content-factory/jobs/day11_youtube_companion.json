@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "content_slot": "youtube_companion",
+  "day": 11,
+  "publish_date": "2026-08-11",
+  "folder": "2026-08-11_D11_DETAILS_NOT_LOGOS",
+  "theme": "The details that change the whole look",
+  "cover_text": "LOOK\nCLOSER",
+  "output_stem": "YA_D11_youtube_companion_v02",
+  "sources": [
+    {"provider_id": 32856239, "page_url": "https://www.pexels.com/video/elegant-black-and-white-wristwatch-close-up-32856239/", "download_url": "https://videos.pexels.com/video-files/32856239/14004256_1080_1920_60fps.mp4", "creator": "Alex Dos Santos", "creator_url": "https://www.pexels.com/@alex-dos-santos-305643819", "filename": "pexels_32856239_alex_dos_santos_watch.mp4", "offset_seconds": 0.5, "clip_duration_seconds": 3.0},
+    {"provider_id": 28291031, "page_url": "https://www.pexels.com/video/a-woman-in-red-shoes-and-a-purse-standing-on-the-sidewalk-28291031/", "download_url": "https://videos.pexels.com/video-files/28291031/12352028_1080_1920_50fps.mp4", "creator": "iddea photo", "creator_url": "https://www.pexels.com/@alena", "filename": "pexels_28291031_iddea_photo_red_shoes_purse.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.0},
+    {"provider_id": 5704909, "page_url": "https://www.pexels.com/video/a-person-wearing-a-white-high-heels-shoes-5704909/", "download_url": "https://videos.pexels.com/video-files/5704909/5704909-hd_1080_1920_24fps.mp4", "creator": "Anastasia Shuraeva", "creator_url": "https://www.pexels.com/@anastasia-shuraeva", "filename": "pexels_5704909_anastasia_shuraeva_white_heels.mp4", "offset_seconds": 1.0, "clip_duration_seconds": 3.0},
+    {"provider_id": 8738548, "page_url": "https://www.pexels.com/video/close-up-of-painted-sneakers-8738548/", "download_url": "https://videos.pexels.com/video-files/8738548/8738548-hd_1080_1920_25fps.mp4", "creator": "Tima Miroshnichenko", "creator_url": "https://www.pexels.com/@tima-miroshnichenko", "filename": "pexels_8738548_tima_miroshnichenko_sneakers.mp4", "offset_seconds": 1.0, "clip_duration_seconds": 3.0},
+    {"provider_id": 8844332, "page_url": "https://www.pexels.com/video/close-up-footage-beautiful-earrings-rotating-8844332/", "download_url": "https://videos.pexels.com/video-files/8844332/8844332-hd_1080_1920_30fps.mp4", "creator": "Lara Jameson", "creator_url": "https://www.pexels.com/@lara-jameson", "filename": "pexels_8844332_lara_jameson_earrings.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.0},
+    {"provider_id": 7316982, "page_url": "https://www.pexels.com/video/a-person-took-the-paperbag-7316982/", "download_url": "https://videos.pexels.com/video-files/7316982/7316982-hd_1080_1920_25fps.mp4", "creator": "Angela Roma", "creator_url": "https://www.pexels.com/@angela-roma", "filename": "pexels_7316982_angela_roma_paper_bag.mp4", "offset_seconds": 0.3, "clip_duration_seconds": 3.0}
+  ],
+  "render": {"duration_seconds": 17, "transition_seconds": 0.2, "fps": 30, "template_version": "detail-counterpoint-asmr-v1", "cover_source_index": 0, "cover_offset_seconds": 1.0, "text_events": [{"start": 0.25, "end": 4.8, "text": "Look closer."}, {"start": 13.0, "end": 17.0, "text": "The detail changes everything."}]},
+  "audio_score": {"duration_seconds": 17, "seed": 20261811, "bpm": 96, "root_midi": 43, "scale": "minor_pentatonic", "mood": "fashion_accessory_tactile", "ambience": 0.20, "pulse": 0.09, "melody": 0.02, "impacts": 0.06, "asmr": 0.20, "asmr_profile": "watch_shoes_jewelry", "sample_rate": 48000},
+  "production_notes": ["Second daily YouTube Short with a distinct six-source detail sequence.", "Cuts and pattern interrupts are aligned to the original tactile score.", "Curated Pexels material must not be described as personally filmed.", "Human visual and audio approval is required before scheduling."],
+  "platforms": {
+    "instagram": {"caption": "Companion edit for archive only.", "cta": "Look closer.", "hashtags": ["yulaariastudio"], "music_search": "Original procedural score.", "schedule_notes": "Do not schedule this companion to Instagram."},
+    "facebook": {"caption": "Companion edit for archive only.", "cta": "Look closer.", "hashtags": ["yulaariastudio"], "music_search": "Original procedural score.", "schedule_notes": "Do not schedule this companion to Facebook."},
+    "tiktok": {"caption": "Companion edit for archive only.", "cta": "Look closer.", "hashtags": ["yulaariastudio"], "music_search": "Original procedural score.", "schedule_notes": "Do not schedule this companion to TikTok."},
+    "youtube_shorts": {"title": "The detail changes everything", "caption": "A watch, a shoe, a bag, or a flash of jewelry can redirect the entire look. This second detail study turns six quiet choices into one fast, tactile visual sequence.", "cta": "Which detail changed the look for you?", "hashtags": ["yulaariastudio", "fashiondetails", "styleinspiration", "shorts"], "music_search": "Use the original tactile ASMR score or a minimal fashion beat from the Shorts library.", "schedule_notes": "Companion Short; schedule at 20:30 Europe/Warsaw, category 19, no synthetic-content disclosure."},
+    "threads": {"caption": "Companion edit for archive only.", "cta": "Look closer.", "hashtags": ["yulaariastudio"], "music_search": "Original procedural score.", "schedule_notes": "Do not schedule this companion to Threads."},
+    "x": {"caption": "Companion edit for archive only.", "cta": "Look closer.", "hashtags": ["yulaariastudio"], "music_search": "Original procedural score.", "schedule_notes": "Do not schedule this companion to X."}
+  },
+  "checklist": ["Watch both companion masters and confirm the six cuts match the tactile cues.", "Confirm 1080 x 1920, H.264, 17-second duration, and AAC audio QA.", "Confirm all six sources have Pexels evidence and hashes.", "Schedule only to YouTube Shorts at the companion slot after approval."]
+}

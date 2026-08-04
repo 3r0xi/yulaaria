@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "day": 9,
+  "publish_date": "2026-08-09",
+  "folder": "2026-08-09_D09_IN_TRANSIT",
+  "theme": "Train-window thoughts",
+  "cover_text": "IN TRANSIT",
+  "output_stem": "YA_D09_train_window_thoughts_v01",
+  "sources": [
+    {"provider_id": 13255056, "page_url": "https://www.pexels.com/video/raindrops-on-train-window-13255056/", "download_url": "https://www.pexels.com/download/video/13255056/", "creator": "Deepa Godiawala", "filename": "pexels_13255056_deepa_godiawala_rain_train_window.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 2.0},
+    {"provider_id": 3824385, "page_url": "https://www.pexels.com/video/view-from-the-window-of-a-moving-train-3824385/", "download_url": "https://www.pexels.com/download/video/3824385/", "creator": "Peggy Anke", "filename": "pexels_3824385_peggy_anke_moving_train_view.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 3.0},
+    {"provider_id": 27999759, "page_url": "https://www.pexels.com/video/a-man-sitting-on-a-train-window-looking-out-27999759/", "download_url": "https://www.pexels.com/download/video/27999759/", "creator": "Shutter Break", "filename": "pexels_27999759_shutter_break_train_passenger.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 2.0},
+    {"provider_id": 14062924, "page_url": "https://www.pexels.com/video/modern-buildings-and-the-river-thames-seen-from-a-train-window-14062924/", "download_url": "https://www.pexels.com/download/video/14062924/", "creator": "Boyan Minchev", "filename": "pexels_14062924_boyan_minchev_city_train_window.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 3.0},
+    {"provider_id": 13255056, "page_url": "https://www.pexels.com/video/raindrops-on-train-window-13255056/", "download_url": "https://www.pexels.com/download/video/13255056/", "creator": "Deepa Godiawala", "filename": "pexels_13255056_deepa_godiawala_rain_train_window.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 2.0}
+  ],
+  "render": {
+    "duration_seconds": 12,
+    "fps": 30,
+    "template_version": "train-window-loop-v1",
+    "cover_source_index": 1,
+    "cover_offset_seconds": 1.3,
+    "reverse_source_indices": [4],
+    "text_events": [
+      {"start": 0.2, "end": 4.0, "text": "The best part of leaving is watching the old view disappear."},
+      {"start": 9.4, "end": 12.0, "text": "Train journey or road trip?"}
+    ]
+  },
+  "audio_score": {"duration_seconds": 12, "seed": 20260809, "bpm": 68, "root_midi": 43, "scale": "minor_pentatonic", "mood": "reflective_train_window", "ambience": 0.30, "pulse": 0.06, "melody": 0.06, "impacts": 0.02, "sample_rate": 48000},
+  "production_notes": [
+    "Train-window views dominate the sequence, with one brief passenger cutaway.",
+    "The rain-window opening returns in reverse at the end to soften the loop point.",
+    "Keep the main sentence lower-middle and inside platform UI safe margins.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "There is something cinematic about moving while the world outside becomes a blur.", "cta": "Train journey or road trip?", "hashtags": ["#yulaariastudio", "#TrainTravel", "#WindowView", "#SlowTravel", "#CinematicJourney"], "music_search": "In Instagram or Edits, search for reflective train ride, soft travel ambience, or minimal cinematic motion.", "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.", "schedule_notes": "Instagram Reel; use IN TRANSIT as the cover and verify the lower text remains above UI controls."},
+    "facebook": {"caption": "There is something cinematic about moving while the world outside becomes a blur. Train windows can turn anyone into a philosopher for twenty minutes.", "cta": "Train journey or road trip?", "hashtags": ["#yulaariastudio", "#TrainTravel", "#SlowTravel"], "music_search": "Use the original procedural score or a Meta-cleared reflective travel track.", "music_reuse_policy": "Confirm Facebook clearance before reusing Instagram music.", "schedule_notes": "Facebook Reel with the longer reflective caption; use the same clean loop."},
+    "tiktok": {"caption": "Train windows turn everyone into a philosopher for at least twenty minutes.", "cta": "Train journey or road trip?", "hashtags": ["#yulaariastudio", "#TrainTok", "#TravelTok", "#WindowThoughts"], "music_search": "Choose a current nostalgic travel or soft-motion sound inside TikTok.", "music_reuse_policy": "Keep TikTok-library music on TikTok; use the procedural or silent master elsewhere.", "schedule_notes": "Upload the loop directly and keep the text low-middle but clear of interface controls."},
+    "youtube_shorts": {"title": "The best part of leaving is watching the old view disappear", "caption": "Twelve seconds of rain, passing landscapes, and train-window thoughts.", "cta": "Train journey or road trip?", "hashtags": ["#yulaariastudio", "#TrainTravel", "#Shorts"], "music_search": "Use the original score or a reflective travel track from the Shorts library.", "music_reuse_policy": "Do not reuse Shorts-library audio outside YouTube without separate permission.", "schedule_notes": "Upload the clean loop; use the IN TRANSIT cover rather than the full title."},
+    "threads": {"caption": "Train windows turn everyone into a philosopher for at least twenty minutes. Train journey or road trip?", "cta": "Choose your way out.", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent or procedural-audio master.", "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.", "schedule_notes": "Text-led post; attach the clean loop if the movement adds context."},
+    "x": {"caption": "Train windows turn everyone into a philosopher for at least twenty minutes.", "cta": "Train journey or road trip?", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent master or original procedural score.", "music_reuse_policy": "Do not reuse licensed platform music on X.", "schedule_notes": "Attach the clean looping video; keep the post copy concise."}
+  },
+  "stories": {"frames": ["The old view disappears.", "How would you rather travel?"], "sticker": "Poll: TRAIN / ROAD TRIP", "timing": "Publish after the Reel on Instagram and Facebook."},
+  "checklist": [
+    "Watch both MP4 masters twice; confirm the reversed rain-window ending makes the loop feel intentional.",
+    "Inspect cover and contact sheet; confirm the long sentence is readable and inside safe margins.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 12-second duration, and audio-stream checks passed.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, cover, date, time zone, and preview before scheduling."
+  ]
+}

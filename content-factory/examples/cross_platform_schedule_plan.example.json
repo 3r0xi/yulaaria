@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "timezone": "Europe/Warsaw",
+  "posts": [
+    {
+      "idempotency_key": "day10:x:text-01",
+      "day": 10,
+      "slot": "text-01",
+      "platform": "x",
+      "provider": "buffer",
+      "channel_id": "REPLACE_WITH_BUFFER_X_CHANNEL_ID",
+      "due_at": "2026-08-10T12:30:00+02:00",
+      "text": "Approved English copy goes here."
+    },
+    {
+      "idempotency_key": "day10:threads:text-01",
+      "day": 10,
+      "slot": "text-01",
+      "platform": "threads",
+      "provider": "meta",
+      "due_at": "2026-08-10T13:10:00+02:00",
+      "text": "Approved English copy goes here.",
+      "media_type": "text"
+    },
+    {
+      "idempotency_key": "day10:tiktok:primary-short",
+      "day": 10,
+      "slot": "primary-short",
+      "platform": "tiktok",
+      "provider": "tiktok",
+      "due_at": "2026-08-10T19:20:00+02:00",
+      "media_type": "video",
+      "media_path": "G:\\My Drive\\Codex_n8n\\Yula Aria\\Content Sharing Plan\\2026-08-10_D10_THEME\\exports\\approved-tiktok.mp4",
+      "privacy_level": "SELF_ONLY",
+      "text": "Approved English caption goes here."
+    }
+  ]
+}

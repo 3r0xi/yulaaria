@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "timezone": "Europe/Warsaw",
+  "synthetic_content_disclosure_default": false,
+  "schedule_defaults": {
+    "facebook_reel": "19:30",
+    "facebook_photo": "13:00",
+    "instagram_reel": "19:30",
+    "instagram_photo": "13:00",
+    "threads_text": ["09:15", "12:45", "16:30", "20:45"],
+    "x_text": ["09:15", "12:45", "16:30", "20:45"],
+    "tiktok_video": "20:15",
+    "youtube_short_primary": "12:30",
+    "youtube_short_companion": "20:30"
+  },
+  "buffer_channels": ["x"],
+  "direct_api_channels": ["facebook", "instagram", "threads", "youtube", "tiktok"]
+}

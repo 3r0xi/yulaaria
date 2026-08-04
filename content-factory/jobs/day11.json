@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "day": 11,
+  "publish_date": "2026-08-11",
+  "folder": "2026-08-11_D11_DETAILS_NOT_LOGOS",
+  "theme": "Style is in the details",
+  "cover_text": "STYLE USUALLY\nWHISPERS",
+  "output_stem": "YA_D11_style_details_v01",
+  "sources": [
+    {"provider_id": 10648315, "page_url": "https://www.pexels.com/video/close-up-on-bracelets-on-hand-10648315/", "download_url": "https://videos.pexels.com/video-files/10648315/10648315-hd_1080_2048_25fps.mp4", "creator": "cottonbro studio", "creator_url": "https://www.pexels.com/@cottonbro", "filename": "pexels_10648315_cottonbro_bracelets.mp4", "offset_seconds": 1.0, "clip_duration_seconds": 3.0},
+    {"provider_id": 6487185, "page_url": "https://www.pexels.com/video/a-person-wear-black-leather-shoes-6487185/", "download_url": "https://videos.pexels.com/video-files/6487185/6487185-hd_1080_2048_25fps.mp4", "creator": "cottonbro studio", "creator_url": "https://www.pexels.com/@cottonbro", "filename": "pexels_6487185_cottonbro_black_shoes.mp4", "offset_seconds": 2.0, "clip_duration_seconds": 3.0},
+    {"provider_id": 10321860, "page_url": "https://www.pexels.com/video/a-man-wearing-a-necklace-10321860/", "download_url": "https://videos.pexels.com/video-files/10321860/10321860-hd_1080_2048_25fps.mp4", "creator": "Ron Lach", "creator_url": "https://www.pexels.com/@ron-lach", "filename": "pexels_10321860_ron_lach_necklace.mp4", "offset_seconds": 1.0, "clip_duration_seconds": 3.0},
+    {"provider_id": 9466170, "page_url": "https://www.pexels.com/video/a-buryat-woman-touching-her-earring-9466170/", "download_url": "https://videos.pexels.com/video-files/9466170/9466170-hd_1080_2048_25fps.mp4", "creator": "cottonbro studio", "creator_url": "https://www.pexels.com/@cottonbro", "filename": "pexels_9466170_cottonbro_earring.mp4", "offset_seconds": 1.0, "clip_duration_seconds": 3.0},
+    {"provider_id": 7762519, "page_url": "https://www.pexels.com/video/a-person-rolling-up-the-sleeves-7762519/", "download_url": "https://videos.pexels.com/video-files/7762519/7762519-hd_1080_2048_25fps.mp4", "creator": "cottonbro studio", "creator_url": "https://www.pexels.com/@cottonbro", "filename": "pexels_7762519_cottonbro_sleeves.mp4", "offset_seconds": 1.2, "clip_duration_seconds": 3.0},
+    {"provider_id": 8718449, "page_url": "https://www.pexels.com/video/person-holding-a-sunglasses-8718449/", "download_url": "https://videos.pexels.com/video-files/8718449/8718449-hd_1080_2048_25fps.mp4", "creator": "cottonbro studio", "creator_url": "https://www.pexels.com/@cottonbro", "filename": "pexels_8718449_cottonbro_sunglasses.mp4", "offset_seconds": 1.0, "clip_duration_seconds": 3.0}
+  ],
+  "render": {
+    "duration_seconds": 17,
+    "transition_seconds": 0.2,
+    "fps": 30,
+    "template_version": "editorial-beat-cut-asmr-v2",
+    "cover_source_index": 0,
+    "cover_offset_seconds": 1.4,
+    "text_events": [
+      {"start": 0.25, "end": 5.2, "text": "Style usually whispers."},
+      {"start": 13.0, "end": 17.0, "text": "What detail do you notice first?"}
+    ]
+  },
+  "audio_score": {"duration_seconds": 17, "seed": 20260811, "bpm": 92, "root_midi": 45, "scale": "minor_pentatonic", "mood": "quiet_luxury_fashion_details", "ambience": 0.24, "pulse": 0.08, "melody": 0.03, "impacts": 0.05, "asmr": 0.18, "asmr_profile": "fabric_jewelry_detail", "sample_rate": 48000},
+  "production_notes": [
+    "Six detail shots are aligned to the original ASMR rhythm for a 17-second editorial montage.",
+    "Cuts, crossfades, and pattern interrupts follow the procedural score cues; keep the movement refined rather than frantic.",
+    "Use only close details and avoid implying that any featured person represents Yula.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "Style rarely needs to announce itself. A cuff, a ring, a polished shoe, or the way a sleeve falls can quietly change the whole impression before anyone notices why.", "cta": "What detail do you notice first in someone's style?", "hashtags": ["yulaariastudio", "quietluxury", "fashiondetails", "editorialstyle", "styleinspiration"], "music_search": "Search Instagram or Edits for minimal fashion beat, soft runway percussion, or tactile editorial ASMR.", "schedule_notes": "Publish as a premium editorial Reel; keep the cover clean and the original tactile score low."},
+    "facebook": {"caption": "The strongest style choices are often the smallest ones. A watch, a cuff, a shoe, or one deliberate texture can say more than a logo ever could.", "cta": "Which detail catches your eye first?", "hashtags": ["yulaariastudio", "quietluxury", "fashiondetails"], "music_search": "Use the original procedural ASMR score or a restrained Meta-cleared fashion instrumental.", "schedule_notes": "Publish as a Reel and invite opinions in the first comment."},
+    "tiktok": {"caption": "The outfit is simple. The detail is doing all the work. Watch how one small choice changes the entire mood before the eye even has time to name it.", "cta": "Shoes, watch, bag, or colors?", "hashtags": ["yulaariastudio", "fashiontok", "quietluxury", "styledetails", "editorialtok"], "music_search": "Search TikTok for quiet luxury edit, subtle runway beat, or clean fashion ASMR; keep it under the tactile score.", "schedule_notes": "Use the clean 9:16 master; make the first accessory close-up the hook."},
+    "youtube_shorts": {"title": "Style usually whispers", "caption": "Six small details, one complete impression. The strongest style choices often register before we can explain them, from texture and jewelry to shoes and the fall of a sleeve.", "cta": "What style detail do you notice first?", "hashtags": ["yulaariastudio", "fashiondetails", "quietluxury", "shorts"], "music_search": "Use the original ASMR score or a restrained fashion cue from the Shorts library.", "schedule_notes": "Primary Short; category 19, clean cover, no synthetic-content disclosure."},
+    "threads": {"caption": "The best style rarely looks like it is trying very hard. It lets one detail do the talking: a cuff, a watch, a shoe, or the way one texture catches the light.", "cta": "Which detail do you notice first?", "hashtags": ["yulaariastudio", "fashiondetails"], "music_search": "Use the silent master or original procedural score when attaching the Reel.", "schedule_notes": "Use the text-first version; the Reel can support the thought later."},
+    "x": {"caption": "The best style rarely looks like it is trying very hard. One detail does the talking: a cuff, a watch, a shoe, or the way a texture catches the light.", "cta": "What do you notice first?", "hashtags": ["yulaariastudio", "fashiondetails"], "music_search": "Use the silent master or original procedural score when attaching video.", "schedule_notes": "Post concise copy first; use the video as the visual follow-through."}
+  },
+  "stories": {"frames": ["Style usually whispers.", "Which detail speaks first?", "Shoes / Watch / Bag / Colors"], "sticker": "Quiz: SHOES / WATCH / BAG / COLORS", "timing": "Publish after the Reel on Instagram and Facebook."},
+  "text_posts": {
+    "posts": [
+      "The best style rarely looks like it is trying very hard. It lets one detail do the talking.",
+      "A coat can be simple. Then the sleeve, the watch, or the way a cuff is folded changes the whole sentence.",
+      "That is why style usually whispers: the eye notices the detail before the mind names it.",
+      "Quick test: what do you notice first in someone's style—shoes, watch, bag, or colors?"
+    ],
+    "instructions": "Posts 2 and 3 can run as a connected mini-thread; publish Posts 1 and 4 separately across Threads and X. Space them across the configured text slots."
+  },
+  "checklist": [
+    "Watch both MP4 masters and confirm all six rhythm-aligned cuts feel intentional.",
+    "Inspect the cover and contact sheet; confirm text is readable and no logos dominate the frame.",
+    "Confirm Pexels pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 17-second duration, and audio-stream checks passed.",
+    "Listen for clean tactile ASMR cues without clipping, harsh impacts, or distracting melody.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Verify caption, CTA, comma-separated tags, cover, date, time zone, and preview before scheduling."
+  ]
+}

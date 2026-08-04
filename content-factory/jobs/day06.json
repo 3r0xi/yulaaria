@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "day": 6,
+  "publish_date": "2026-08-06",
+  "folder": "2026-08-06_D06_ORDER_INTERRUPTION",
+  "theme": "Architecture and symmetry",
+  "cover_text": "ORDER / INTERRUPTION",
+  "output_stem": "YA_D06_architecture_symmetry_v01",
+  "sources": [
+    {"provider_id": 33117487, "page_url": "https://www.pexels.com/video/symmetrical-modern-architecture-from-below-33117487/", "download_url": "https://www.pexels.com/download/video/33117487/", "creator": "Anh Nguyen", "filename": "pexels_33117487_anh_nguyen_modern_symmetry.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 1.333333},
+    {"provider_id": 34582162, "page_url": "https://www.pexels.com/video/modern-urban-architecture-with-spiral-staircase-34582162/", "download_url": "https://www.pexels.com/download/video/34582162/", "creator": "Kenan Turguc", "filename": "pexels_34582162_kenan_turguc_spiral_staircase.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 1.333333},
+    {"provider_id": 7076540, "page_url": "https://www.pexels.com/video/facade-of-a-building-7076540/", "download_url": "https://www.pexels.com/download/video/7076540/", "creator": "Laura Tancredi", "filename": "pexels_7076540_laura_tancredi_facade_lines.mp4", "offset_seconds": 0.6, "clip_duration_seconds": 1.333333},
+    {"provider_id": 14924044, "page_url": "https://www.pexels.com/video/high-angle-view-of-concrete-stairs-and-two-escalators-14924044/", "download_url": "https://www.pexels.com/download/video/14924044/", "creator": "Eren Kapusuz", "filename": "pexels_14924044_eren_kapusuz_stairs_escalators.mp4", "offset_seconds": 0.7, "clip_duration_seconds": 1.333333},
+    {"provider_id": 8567957, "page_url": "https://www.pexels.com/video/top-view-of-a-building-8567957/", "download_url": "https://www.pexels.com/download/video/8567957/", "creator": "JJ Perks", "filename": "pexels_8567957_jj_perks_rooftop_geometry.mp4", "offset_seconds": 0.6, "clip_duration_seconds": 1.333333},
+    {"provider_id": 15519612, "page_url": "https://www.pexels.com/video/low-angle-view-of-modern-buildings-under-a-blue-evening-sky-15519612/", "download_url": "https://www.pexels.com/download/video/15519612/", "creator": "Mahmoud Eltaweel", "filename": "pexels_15519612_mahmoud_eltaweel_evening_buildings.mp4", "offset_seconds": 0.8, "clip_duration_seconds": 1.333333}
+  ],
+  "render": {
+    "duration_seconds": 8,
+    "fps": 30,
+    "template_version": "geometric-slideshow-v1",
+    "cover_source_index": 3,
+    "cover_offset_seconds": 1.1,
+    "carousel": {"enabled": true, "source_indices": [0, 1, 2, 3, 4, 5], "offset_seconds": [1.0, 1.0, 0.8, 1.1, 0.8, 1.0]},
+    "text_events": [
+      {"start": 0.0, "end": 2.2, "text": "Order can be beautiful."},
+      {"start": 6.1, "end": 8.0, "text": "Symmetry or intentional imperfection?"}
+    ]
+  },
+  "audio_score": {"duration_seconds": 8, "seed": 20260806, "bpm": 96, "root_midi": 45, "scale": "minor_pentatonic", "mood": "precise_geometric_minimal", "ambience": 0.10, "pulse": 0.16, "melody": 0.03, "impacts": 0.12, "sample_rate": 48000},
+  "production_notes": [
+    "Deliver both a six-image 4:5 carousel and an 8-second 9:16 slideshow master.",
+    "Alternate wide architectural frames with tighter geometry and interruption details.",
+    "The procedural track uses restrained geometric pulses; add platform-native music only after upload.",
+    "Curated Pexels material must not be described as personally photographed or filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "Lines, repetition, negative space — sometimes the frame is already waiting for you.", "cta": "Perfect symmetry or intentional imperfection?", "hashtags": ["#yulaariastudio", "#ArchitecturePhotography", "#Symmetry", "#MinimalArchitecture", "#VisualGeometry"], "music_search": "In Instagram or Edits, search for minimal geometric beat, clean electronic pulse, or architectural rhythm.", "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.", "schedule_notes": "Primary post: six-image 4:5 carousel. Alternate wide and detail frames; use the video as a supporting Reel."},
+    "facebook": {"caption": "Lines, repetition, and negative space can turn architecture into a ready-made frame. Which catches your eye first: perfect order or one deliberate interruption?", "cta": "Symmetry or intentional imperfection?", "hashtags": ["#yulaariastudio", "#Architecture", "#VisualGeometry"], "music_search": "Use the original procedural score or a Meta-cleared minimal pulse for the slideshow.", "music_reuse_policy": "Confirm Facebook clearance before reusing Instagram music.", "schedule_notes": "Publish as a six-photo album or carousel; optionally attach the short slideshow separately."},
+    "tiktok": {"caption": "When architecture becomes a pattern — until one detail interrupts it.", "cta": "Symmetry or imperfection?", "hashtags": ["#yulaariastudio", "#ArchitectureTok", "#Symmetry", "#PhotoMode"], "music_search": "Choose a current geometric beat with clear, restrained accents inside TikTok.", "music_reuse_policy": "Keep TikTok-library music on TikTok; use the procedural master elsewhere.", "schedule_notes": "Prefer TikTok Photo Mode with the six carousel images; the 8-second slideshow is the fallback."},
+    "youtube_shorts": {"title": "When architecture becomes a pattern", "caption": "Six architectural frames built from lines, repetition, and negative space.", "cta": "Perfect symmetry or intentional imperfection?", "hashtags": ["#yulaariastudio", "#Architecture", "#Shorts"], "music_search": "Use the original procedural score or a subtle geometric track from the Shorts library.", "music_reuse_policy": "Do not reuse Shorts-library audio outside YouTube without separate permission.", "schedule_notes": "Upload the 8-second slideshow; keep the opening text readable before the first cut."},
+    "threads": {"caption": "Architecture is one of the easiest ways to see how differently people can solve the same problem: space. Perfect symmetry, or a frame with one thing slightly wrong?", "cta": "Choose one.", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent or procedural-audio slideshow if attaching video.", "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.", "schedule_notes": "Lead with the text; attach two contrasting carousel frames or the clean slideshow."},
+    "x": {"caption": "Sometimes the frame is already waiting for you.", "cta": "Symmetry or intentional imperfection?", "hashtags": ["#yulaariastudio"], "music_search": "Use the silent master or original procedural score if posting video.", "music_reuse_policy": "Do not reuse licensed platform music on X.", "schedule_notes": "Use one strong architectural image, then add the remaining frames in a reply or gallery."}
+  },
+  "stories": {"frames": ["Place one perfectly ordered frame beside one interrupted frame.", "Which one holds your attention longer?"], "sticker": "Poll: SYMMETRY / IMPERFECTION", "timing": "Publish after the Instagram carousel and mirror to Facebook Stories."},
+  "checklist": [
+    "Review all six 4:5 carousel files in order and confirm wide/detail alternation.",
+    "Open both slideshow masters, cover, and contact sheet; confirm every frame is sharp and text remains readable.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920 H.264 video, 1080 x 1350 carousel images, and 8-second duration.",
+    "Confirm there is no watermark, false personal-capture claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, cover, date, time zone, and preview before scheduling."
+  ]
+}

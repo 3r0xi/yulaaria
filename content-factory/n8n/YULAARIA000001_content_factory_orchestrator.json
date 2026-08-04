@@ -1,0 +1,77 @@
+{
+  "id": "YULAARIA000001",
+  "name": "Yula Aria — Content Factory Orchestrator (INACTIVE)",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [0, 0],
+      "id": "7b820080-cf29-4ea5-b907-a6a4cadc1f30",
+      "name": "Manual Dry-Run Trigger"
+    },
+    {
+      "parameters": {
+        "url": "http://host.docker.internal:8765/health",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [256, 0],
+      "id": "aa15c92a-125c-43cb-8db5-11d3ca8fbdc9",
+      "name": "Check Local Worker",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "onError": "stopWorkflow"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8765/v1/qa/folder",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ folder_path: 'C:\\\\Users\\\\ercan\\\\OneDrive\\\\Documents\\\\Yula Aria\\\\Content Sharing Plan\\\\2026-08-01_D01_NOTICE_MORE' }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [512, 0],
+      "id": "c3c1c227-4a1e-4d9d-a0cf-93f23bc92d0b",
+      "name": "Day 1 Package Preflight",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
+      "onError": "stopWorkflow"
+    }
+  ],
+  "connections": {
+    "Manual Dry-Run Trigger": {
+      "main": [[{"node": "Check Local Worker", "type": "main", "index": 0}]]
+    },
+    "Check Local Worker": {
+      "main": [[{"node": "Day 1 Package Preflight", "type": "main", "index": 0}]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Warsaw",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true
+  },
+  "staticData": null,
+  "pinData": {},
+  "meta": {
+    "templateCredsSetupCompleted": false,
+    "yulaFactoryVersion": "0.1.0",
+    "activationGate": "Do not activate until the worker token credential, Day 1 package, and error workflow are tested."
+  },
+  "tags": []
+}

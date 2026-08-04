@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "day": 12,
+  "publish_date": "2026-08-12",
+  "folder": "2026-08-12_D12_BEFORE_THE_BEACH_WAKES",
+  "theme": "Ocean morning",
+  "cover_text": "BEFORE THE\nBEACH WAKES",
+  "output_stem": "YA_D12_ocean_morning_v01",
+  "notion_page_url": "https://app.notion.com/p/3a768d57849d8119ad72c85c9ebd0b25",
+  "sources": [
+    {
+      "provider_id": 34298536,
+      "page_url": "https://www.pexels.com/video/serene-sunrise-on-a-tranquil-beach-34298536/",
+      "download_url": "https://videos.pexels.com/video-files/34298536/14530699_1080_1920_24fps.mp4",
+      "creator": "Mario Krimer",
+      "creator_url": "https://www.pexels.com/@mario-krimer-333884600",
+      "filename": "pexels_34298536_mario_krimer_sunrise_shore.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 4.2
+    },
+    {
+      "provider_id": 34764937,
+      "page_url": "https://www.pexels.com/video/serene-morning-beach-with-ocean-waves-34764937/",
+      "download_url": "https://videos.pexels.com/video-files/34764937/14738729_1080_1920_60fps.mp4",
+      "creator": "Logan Voss",
+      "creator_url": "https://www.pexels.com/@logan",
+      "filename": "pexels_34764937_logan_voss_empty_beach.mp4",
+      "offset_seconds": 2.0,
+      "clip_duration_seconds": 4.2
+    },
+    {
+      "provider_id": 38215371,
+      "page_url": "https://www.pexels.com/video/serene-driftwood-on-a-tranquil-beach-38215371/",
+      "download_url": "https://videos.pexels.com/video-files/38215371/16224325_1080_1920_60fps.mp4",
+      "creator": "Thanzeena Husain",
+      "creator_url": "https://www.pexels.com/@thanzeena",
+      "filename": "pexels_38215371_thanzeena_husain_driftwood.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 4.2
+    },
+    {
+      "provider_id": 34451675,
+      "page_url": "https://www.pexels.com/video/sunrise-waves-crashing-on-rocky-shoreline-34451675/",
+      "download_url": "https://videos.pexels.com/video-files/34451675/14598817_1080_1920_24fps.mp4",
+      "creator": "Mario Krimer",
+      "creator_url": "https://www.pexels.com/@mario-krimer-333884600",
+      "filename": "pexels_34451675_mario_krimer_rocky_wave.mp4",
+      "offset_seconds": 2.0,
+      "clip_duration_seconds": 4.2
+    },
+    {
+      "provider_id": 33148643,
+      "page_url": "https://www.pexels.com/video/aerial-sunrise-over-serene-ocean-waves-33148643/",
+      "download_url": "https://videos.pexels.com/video-files/33148643/14126942_1080_1920_30fps.mp4",
+      "creator": "Raymundo Guerrero",
+      "creator_url": "https://www.pexels.com/@raymundo-guerrero-2150984858",
+      "filename": "pexels_33148643_raymundo_guerrero_aerial_sunrise.mp4",
+      "offset_seconds": 1.5,
+      "clip_duration_seconds": 4.0
+    }
+  ],
+  "render": {
+    "duration_seconds": 20,
+    "transition_seconds": 0.2,
+    "fps": 30,
+    "template_version": "cinematic-slow-build-beat-sync-v1",
+    "editing_style": "cinematic_slow_build",
+    "transition_type": "fade",
+    "cover_source_index": 0,
+    "cover_offset_seconds": 1.2,
+    "audio_sync": {"enabled": true},
+    "text_events": [
+      {"start": 0.2, "end": 4.8, "text": "Early light, no agenda."},
+      {"start": 15.8, "end": 20.0, "text": "Worth the early alarm?"}
+    ]
+  },
+  "music": {
+    "provider": "kie_suno",
+    "associated_content_id": "YA_D12_ocean_morning_v01",
+    "version": 1,
+    "generate": true,
+    "selected_variation_index": 0,
+    "timeout_seconds": 900,
+    "poll_seconds": 20,
+    "rhythm_seed": 20260812,
+    "creative_notes": "First Ocean Morning motif for the Yula sound library: a memorable three-note hook, wave-shaped dynamics, and an ending designed to loop into the opening shore image.",
+    "licensing_notes": "Archive the Kie response and verify the account's current commercial-use terms before distribution.",
+    "brief": {
+      "model": "auto",
+      "exact_duration_required": true,
+      "target_duration_seconds": 20,
+      "title": "Before the Beach Wakes 01",
+      "genre": "cinematic electronic, organic ambient",
+      "mood": "pre-dawn calm, quiet anticipation, warm release",
+      "style": "minimal high-retention short-form score with an original three-note motif and wave-shaped dynamics",
+      "tempo_bpm": 86,
+      "energy": "low to medium, gradually rising",
+      "instrumentation": "soft granular ocean texture, warm synth bass, muted frame drum, airy pluck motif, distant organic percussion",
+      "structure": "instant 0.8-second hook, spacious dawn reveal, restrained rhythmic build, warm horizon release, loop-compatible final tail",
+      "hook_timing": "0.0-0.8 seconds",
+      "instrumental": true,
+      "prompt": "Create an original twenty-second instrumental whose first second feels like a reverse wave inhaling into a clear three-note motif. Keep the opening spacious, introduce a restrained pulse around five seconds, lift gently through the middle, and resolve with a soft tail that reconnects naturally to the opening. Leave room for real ocean ambience and visual text.",
+      "negative_instructions": "vocals, spoken words, recognizable melodies, artist imitation, generic corporate music, festival drops, harsh cymbals, aggressive bass, abrupt ending, over-compression",
+      "style_weight": 0.78,
+      "weirdness": 0.32,
+      "audio_weight": 0.68
+    }
+  },
+  "production_notes": [
+    "A five-shot cinematic slow build moves from shoreline context to tactile detail, wave energy, and an aerial release.",
+    "Cuts, transitions, and pattern interrupts are recalculated from the generated Suno track's detected onsets.",
+    "Keep a separate silent master and retain a small amount of natural ocean ambience only after human audio review.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual, music-rights, and metadata approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {
+      "caption": "The coast feels different before the umbrellas arrive. Early light softens every edge, the waves set the pace, and an empty stretch of sand makes the morning feel briefly untouched.",
+      "cta": "Would you wake early for this view? Send it to someone who loves an empty beach.",
+      "hashtags": ["yulaariastudio", "oceanmorning", "sunrisebeach", "cinematictravel", "slowtravel"],
+      "music_search": "Use the approved original Yula track Before the Beach Wakes 01; keep any retained ocean ambience subtle beneath it.",
+      "schedule_notes": "Publish the 20-second 9:16 Reel with the question visible during the final 4.2 seconds."
+    },
+    "facebook": {
+      "caption": "Before the beach fills with noise, the coast offers a quieter version of itself: cool sand, unhurried waves, and a horizon that asks for nothing. Sometimes the early alarm buys more than a view.",
+      "cta": "Is this peaceful enough to make you wake before sunrise?",
+      "hashtags": ["yulaariastudio", "oceanmorning", "sunrise", "coastalliving"],
+      "music_search": "Use the approved original Yula track Before the Beach Wakes 01 with clean dialogue-free audio.",
+      "schedule_notes": "Publish as a Reel; choose the opening shoreline frame as the cover."
+    },
+    "tiktok": {
+      "caption": "No crowds, no plans, just the first light reaching the water. The beach before everyone wakes has its own rhythm, and for a few seconds the whole coast feels like a private pause.",
+      "cta": "Be honest: worth the early alarm?",
+      "hashtags": ["yulaariastudio", "oceantok", "sunrisetok", "cinematictravel", "slowmorning"],
+      "music_search": "Use the approved original Yula track Before the Beach Wakes 01; upload the mastered version after rights review.",
+      "schedule_notes": "Use the clean 9:16 master and keep the first wave movement inside the opening 0.8 seconds."
+    },
+    "youtube_shorts": {
+      "title": "BEFORE THE BEACH WAKES | A 20-second visual study",
+      "caption": "The coast before the crowds: early light, slow waves, and one quiet question. This twenty-second visual study follows the morning from a close shoreline detail to the open horizon.",
+      "cta": "Would you set an early alarm for this?",
+      "hashtags": ["yulaariastudio", "oceanmorning", "cinematictravel", "sunrise", "shorts"],
+      "music_search": "Use the approved original Yula track Before the Beach Wakes 01.",
+      "schedule_notes": "Primary Short; category 19, English title and metadata, no synthetic-content disclosure."
+    },
+    "threads": {
+      "caption": "There is a version of the beach that disappears as soon as the day begins: cool sand, low light, and waves moving without an audience. The early alarm is really a ticket to that quieter world.",
+      "cta": "What place would you wake early to see empty?",
+      "hashtags": ["yulaariastudio", "oceanmorning"],
+      "music_search": "Attach the approved master with the original Yula track when using the Reel.",
+      "schedule_notes": "Lead with a text-only thought; use the Reel as the evening visual continuation."
+    },
+    "x": {
+      "caption": "The beach has a quieter identity before the day begins: cool sand, low light, and waves moving without an audience. An early alarm can feel less like discipline and more like access.",
+      "cta": "What place is worth waking early for?",
+      "hashtags": ["yulaariastudio", "oceanmorning"],
+      "music_search": "Attach the approved master with the original Yula track when using video.",
+      "schedule_notes": "Post one text story earlier, then use the Reel as the visual follow-through."
+    }
+  },
+  "stories": {
+    "frames": ["Early light, no agenda.", "Worth the early alarm?"],
+    "sticker": "Poll: YES / ASK ME LATER",
+    "timing": "Publish after the Reel on Instagram and Facebook."
+  },
+  "text_posts": {
+    "posts": [
+      "The beach has two personalities. One arrives with umbrellas and conversation. The other disappears before most alarms finish ringing.",
+      "In the quieter version, every small sound feels deliberate: water folding over sand, a distant bird, one set of footprints with no explanation.",
+      "Maybe waking early is not really about discipline. Maybe it is simply how you gain access to places before they become performances.",
+      "What place would you willingly meet before sunrise?"
+    ],
+    "instructions": "Posts 1-3 can run as a connected morning thread. Publish Post 4 separately as an evening question on Threads and X."
+  },
+  "checklist": [
+    "Watch the silent and music masters; confirm the 20-second pacing holds attention without feeling rushed.",
+    "Confirm beat-aligned cuts and pattern interrupts support the visual story and the final shot loops cleanly to the opening.",
+    "Inspect the cover and contact sheet; verify text is legible inside platform-safe margins.",
+    "Confirm every Pexels page, creator, license record, and SHA-256 hash is present in the manifest.",
+    "Verify the Kie request, response, selected track, duration, model, task ID, and licensing note are archived.",
+    "Confirm 1080 x 1920, H.264, 30 fps, 20-second duration, AAC audio, and loudness checks passed.",
+    "Verify captions, CTA, comma-separated tags, cover, date, time zone, and preview before scheduling."
+  ]
+}

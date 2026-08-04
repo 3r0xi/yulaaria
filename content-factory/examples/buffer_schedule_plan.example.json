@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "posts": [
+    {
+      "service": "twitter",
+      "channel_id": "replace_with_buffer_channel_id",
+      "text": "Paste the approved platform caption here.",
+      "mode": "customScheduled",
+      "due_at": "2026-08-11T18:00:00+02:00",
+      "assets": [
+        {
+          "image": "https://replace-with-a-publicly-accessible-media-url.example/image.jpg"
+        }
+      ]
+    }
+  ]
+}

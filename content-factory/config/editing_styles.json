@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "selection": {
+    "minimum_repeat_gap_days": 3,
+    "prefer_asset_fit": true,
+    "deterministic_tiebreak": true
+  },
+  "profiles": {
+    "rapid": {
+      "shot_length_seconds": [0.45, 1.8],
+      "transition_rules": ["hard cuts on strong beats", "one restrained flash or match cut per section"],
+      "motion": "subject-led reframing with brief controlled pushes",
+      "caption_style": "short high-contrast phrases",
+      "typography_placement": "platform-safe upper and middle thirds",
+      "hook_structure": "visual anomaly or result in first 0.8 seconds",
+      "music_sync": "strong beats, fills, and hook accent drive edits",
+      "asset_mix": "video dominant with detail photos as interrupts",
+      "color_treatment": "clean contrast with one consistent accent",
+      "ending": "match the final movement to the opening frame"
+    },
+    "cinematic": {
+      "shot_length_seconds": [1.8, 5.5],
+      "transition_rules": ["motivated dissolves", "match movement and light direction"],
+      "motion": "slow pans, parallax, and progressive zooms",
+      "caption_style": "minimal editorial sentences",
+      "typography_placement": "negative space with generous margins",
+      "hook_structure": "atmospheric question followed by visual escalation",
+      "music_sync": "phrase changes and low-frequency impacts drive chapters",
+      "asset_mix": "balanced video, photography, texture, and environment",
+      "color_treatment": "cinematic neutral grade with protected skin tones",
+      "ending": "quiet resolution or seamless visual return"
+    },
+    "editorial": {
+      "shot_length_seconds": [1.2, 3.8],
+      "transition_rules": ["graphic cuts", "collage changes aligned to musical subdivisions"],
+      "motion": "controlled pan-and-zoom, masks, and layered movement",
+      "caption_style": "magazine-like concise copy",
+      "typography_placement": "grid-aligned edge and center layouts",
+      "hook_structure": "bold title plus unexpected crop or juxtaposition",
+      "music_sync": "typographic and layer changes follow rhythmic motifs",
+      "asset_mix": "photo and video equally supported",
+      "color_treatment": "cohesive palette with texture retained",
+      "ending": "graphic lockup that loops into the title"
+    },
+    "narrative": {
+      "shot_length_seconds": [2.0, 6.0],
+      "transition_rules": ["continuity first", "cuts must advance a clear story beat"],
+      "motion": "natural movement with occasional emphasis push",
+      "caption_style": "sentence-led narrative or timed voiceover captions",
+      "typography_placement": "lower-middle safe zone without covering subjects",
+      "hook_structure": "open loop, tension, development, payoff",
+      "music_sync": "emotional progression outranks constant beat cutting",
+      "asset_mix": "environment, detail, character, and establishing shots",
+      "color_treatment": "documentary naturalism with consistent contrast",
+      "ending": "payoff plus a specific question or next-step loop"
+    },
+    "minimal": {
+      "shot_length_seconds": [2.5, 7.0],
+      "transition_rules": ["mostly clean cuts", "use fades only at structural boundaries"],
+      "motion": "subtle drift and precise reframing",
+      "caption_style": "few words, premium spacing",
+      "typography_placement": "negative space and safe margins",
+      "hook_structure": "one refined detail or contrast in first second",
+      "music_sync": "micro-accents and motif entries, never constant cutting",
+      "asset_mix": "high-quality detail photography and composed video",
+      "color_treatment": "restrained saturation and polished tonal separation",
+      "ending": "clean hold or detail-to-detail loop"
+    }
+  },
+  "styles": [
+    {"id": "fast_hook_montage", "profile": "rapid", "keywords": ["hook", "energy", "city", "trend"], "asset_types": ["video", "photo"]},
+    {"id": "cinematic_slow_build", "profile": "cinematic", "keywords": ["atmosphere", "luxury", "reflection", "journey"], "asset_types": ["video", "photo", "texture"]},
+    {"id": "beat_synchronized_cuts", "profile": "rapid", "keywords": ["rhythm", "movement", "fashion", "night"], "asset_types": ["video", "photo"]},
+    {"id": "documentary_sequence", "profile": "narrative", "keywords": ["place", "culture", "process", "day"], "asset_types": ["video", "photo"]},
+    {"id": "editorial_photo_motion", "profile": "editorial", "keywords": ["photo", "style", "design", "portrait"], "asset_types": ["photo"]},
+    {"id": "minimal_luxury_composition", "profile": "minimal", "keywords": ["luxury", "detail", "hotel", "jewelry"], "asset_types": ["video", "photo"]},
+    {"id": "split_screen_comparison", "profile": "editorial", "keywords": ["compare", "contrast", "before", "choice"], "asset_types": ["video", "photo"]},
+    {"id": "layered_collage", "profile": "editorial", "keywords": ["moodboard", "memory", "texture", "collection"], "asset_types": ["video", "photo", "texture"]},
+    {"id": "kinetic_typography", "profile": "rapid", "keywords": ["statement", "lesson", "quote", "rules"], "asset_types": ["video", "photo", "texture"]},
+    {"id": "text_led_storytelling", "profile": "narrative", "keywords": ["story", "thought", "lesson", "identity"], "asset_types": ["video", "photo"]},
+    {"id": "voiceover_led_narrative", "profile": "narrative", "keywords": ["explain", "guide", "diary", "narrative"], "asset_types": ["video", "photo"]},
+    {"id": "music_led_visual_sequence", "profile": "cinematic", "keywords": ["music", "emotion", "atmosphere", "motif"], "asset_types": ["video", "photo"]},
+    {"id": "before_after_reveal", "profile": "rapid", "keywords": ["before", "after", "change", "reveal"], "asset_types": ["video", "photo"]},
+    {"id": "loop_based_ending", "profile": "rapid", "keywords": ["loop", "repeat", "satisfying", "motion"], "asset_types": ["video"]},
+    {"id": "product_detail_showcase", "profile": "minimal", "keywords": ["product", "detail", "watch", "shoes", "jewelry"], "asset_types": ["video", "photo"]},
+    {"id": "emotional_character_portrait", "profile": "cinematic", "keywords": ["portrait", "emotion", "woman", "character"], "asset_types": ["video", "photo"]},
+    {"id": "atmospheric_travel_sequence", "profile": "cinematic", "keywords": ["travel", "hotel", "airport", "coast", "city"], "asset_types": ["video", "photo"]},
+    {"id": "mixed_media_sequence", "profile": "editorial", "keywords": ["mixed", "archive", "memory", "creative"], "asset_types": ["video", "photo", "texture"]},
+    {"id": "controlled_handheld_simulation", "profile": "narrative", "keywords": ["street", "real", "intimate", "behind"], "asset_types": ["video", "photo"]},
+    {"id": "progressive_zoom_narrative", "profile": "cinematic", "keywords": ["discover", "detail", "focus", "reveal"], "asset_types": ["video", "photo"]},
+    {"id": "rhythmic_pattern_repetition", "profile": "rapid", "keywords": ["pattern", "routine", "rhythm", "collection"], "asset_types": ["video", "photo"]},
+    {"id": "seamless_match_cuts", "profile": "rapid", "keywords": ["match", "movement", "transition", "travel"], "asset_types": ["video"]},
+    {"id": "chapter_based_storytelling", "profile": "narrative", "keywords": ["chapter", "guide", "story", "journey"], "asset_types": ["video", "photo"]},
+    {"id": "suspense_reveal_structure", "profile": "cinematic", "keywords": ["secret", "suspense", "reveal", "unexpected"], "asset_types": ["video", "photo"]}
+  ]
+}

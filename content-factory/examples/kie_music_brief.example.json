@@ -1,0 +1,30 @@
+{
+  "provider": "kie_suno",
+  "associated_content_id": "YA_D12_primary_v01",
+  "version": 1,
+  "generate": false,
+  "selected_variation_index": 0,
+  "rhythm_seed": 120084,
+  "creative_notes": "Introduce an original three-note Yula motif without imitating an existing work.",
+  "licensing_notes": "Record the service terms and account plan that apply at generation time.",
+  "brief": {
+    "model": "auto",
+    "title": "Yula Quiet Momentum 01",
+    "genre": "cinematic electronic",
+    "mood": "intrigue opening into focused confidence",
+    "style": "deep restrained rhythm, organic percussion, tactile detail, original memorable motif",
+    "tempo_bpm": 96,
+    "energy": "medium, gradually rising",
+    "instrumentation": ["warm synth bass", "frame drum", "airy plucks", "soft room texture"],
+    "structure": "0-2 second hook, controlled build, mid-point pattern interrupt, concise reveal, loop-friendly tail",
+    "hook_timing": "within 0.8 seconds",
+    "target_duration_seconds": 20,
+    "exact_duration_required": true,
+    "instrumental": true,
+    "prompt": "Original short-form score designed around a fast opening hook and a clear emotional progression.",
+    "negative_instructions": "recognizable melodies, artist imitation, generic corporate music, harsh clipping, excessive density",
+    "style_weight": 0.75,
+    "weirdness": 0.35,
+    "audio_weight": 0.65
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "day": 4,
+  "publish_date": "2026-08-04",
+  "folder": "2026-08-04_D04_BLUE_THEN_BLUER",
+  "theme": "Mediterranean blue",
+  "cover_text": "BLUE, THEN BLUER",
+  "output_stem": "YA_D04_mediterranean_blue_v01",
+  "sources": [
+    {
+      "provider_id": 9286207,
+      "page_url": "https://www.pexels.com/video/turquoise-water-in-a-beach-9286207/",
+      "download_url": "https://www.pexels.com/download/video/9286207/",
+      "creator": "Ahmed Abd Allah",
+      "filename": "pexels_9286207_ahmed_abd_allah_turquoise_water.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 3.25
+    },
+    {
+      "provider_id": 12783343,
+      "page_url": "https://www.pexels.com/video/steps-on-a-street-in-an-old-town-12783343/",
+      "download_url": "https://www.pexels.com/download/video/12783343/",
+      "creator": "Ozkan Aygun",
+      "filename": "pexels_12783343_ozkan_aygun_old_town_steps.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 3.25
+    },
+    {
+      "provider_id": 8045841,
+      "page_url": "https://www.pexels.com/video/woman-standing-in-the-balcony-looking-at-the-view-8045841/",
+      "download_url": "https://www.pexels.com/download/video/8045841/",
+      "creator": "Vlada Karpovich",
+      "filename": "pexels_8045841_vlada_karpovich_sea_view.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 3.25
+    },
+    {
+      "provider_id": 13431427,
+      "page_url": "https://www.pexels.com/video/a-rocky-shore-with-turquoise-sea-water-13431427/",
+      "download_url": "https://www.pexels.com/download/video/13431427/",
+      "creator": "Omer Aydin",
+      "filename": "pexels_13431427_omer_aydin_turquoise_coast.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 3.25
+    }
+  ],
+  "render": {
+    "duration_seconds": 13,
+    "fps": 30,
+    "template_version": "cinematic-travel-calm-v1",
+    "cover_source_index": 3,
+    "cover_offset_seconds": 1.8,
+    "text_events": [
+      {"start": 0.0, "end": 1.8, "text": "Somewhere the day moves slower."},
+      {"start": 10.8, "end": 13.0, "text": "A weekend or a month?"}
+    ]
+  },
+  "audio_score": {
+    "duration_seconds": 13,
+    "seed": 20260804,
+    "bpm": 72,
+    "root_midi": 50,
+    "scale": "major_pentatonic",
+    "mood": "open_air_mediterranean_calm",
+    "ambience": 0.30,
+    "pulse": 0.07,
+    "melody": 0.10,
+    "impacts": 0.06,
+    "sample_rate": 48000
+  },
+  "production_notes": [
+    "Master: 1080 x 1920, 30 fps, H.264, 13 seconds.",
+    "Sequence: turquoise water, old town, balcony view, wide rocky coast.",
+    "Use only clean cuts; the source motion already supplies the travel rhythm.",
+    "Preserve the silent master and add discovery music natively per platform.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {
+      "caption": "Blue water, old stone, late lunches, nowhere to rush. Some places make a slower life look very convincing.",
+      "cta": "Would you stay for a weekend or a month?",
+      "hashtags": ["#yulaariastudio", "#Mediterranean", "#CinematicTravel", "#CoastalMood", "#VisualDiary"],
+      "music_search": "In Instagram or Edits, search for airy Mediterranean guitar, soft travel ambience, or a restrained cinematic build.",
+      "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.",
+      "schedule_notes": "Instagram Reel; use BLUE, THEN BLUER as the cover and keep the first text visible immediately."
+    },
+    "facebook": {
+      "caption": "Would you stay for a weekend or a month? Blue water, old stone, late lunches, and nowhere to rush - some places make a slower life look very convincing.",
+      "cta": "Weekend escape or move there permanently?",
+      "hashtags": ["#yulaariastudio", "#Mediterranean", "#TravelMood"],
+      "music_search": "Use the same Meta-cleared track as Instagram or retain the original procedural score.",
+      "music_reuse_policy": "Confirm Facebook clearance inside Meta before reusing Instagram music.",
+      "schedule_notes": "Facebook Reel; put the question in the first caption line."
+    },
+    "tiktok": {
+      "caption": "Somewhere the day moves slower. Would you stay for a weekend or a month?",
+      "cta": "Comment weekend or month.",
+      "hashtags": ["#yulaariastudio", "#Mediterranean", "#TravelTok", "#SlowTravel"],
+      "music_search": "Choose a current airy travel or Mediterranean-inspired sound inside TikTok; use the Commercial Music Library when required.",
+      "music_reuse_policy": "Keep TikTok-library music on TikTok; use the clean or procedural-audio master elsewhere.",
+      "schedule_notes": "Upload the clean master; no extra template is needed unless it preserves the calm pacing."
+    },
+    "youtube_shorts": {
+      "title": "BLUE, THEN BLUER | Somewhere the day moves slower",
+      "caption": "A 13-second Mediterranean pause: turquoise water, old stone, and a horizon with nowhere urgent to be.",
+      "cta": "Weekend or a month?",
+      "hashtags": ["#yulaariastudio", "#Mediterranean", "#Shorts"],
+      "music_search": "Use the original procedural score or select a restrained travel instrumental inside the Shorts library.",
+      "music_reuse_policy": "Do not reuse a Shorts-library track outside YouTube without separate permission.",
+      "schedule_notes": "Upload the clean vertical master with the distinct BLUE, THEN BLUER title."
+    },
+    "threads": {
+      "caption": "I understand why some people build an entire life around being close to the sea. Weekend escape or move there permanently?",
+      "cta": "Reply with weekend or move.",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use the silent or original procedural-audio master.",
+      "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.",
+      "schedule_notes": "Text-led post with the clean video attached."
+    },
+    "x": {
+      "caption": "Some places make a slower life look very convincing.",
+      "cta": "Weekend escape or move there permanently?",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use the silent or original procedural-audio master.",
+      "music_reuse_policy": "Do not reuse licensed platform music on X.",
+      "schedule_notes": "Upload the clean loop directly and keep the copy concise."
+    }
+  },
+  "stories": {
+    "frames": ["Somewhere the day moves slower.", "Blue, then bluer."],
+    "sticker": "Slider: How badly do you need this?",
+    "timing": "Publish after the Reel on Instagram; reuse the strongest still for Facebook Stories."
+  },
+  "checklist": [
+    "Open both MP4 masters, cover, and contact sheet; confirm the four-shot sequence feels coherent.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 13-second duration, and audio-stream checks passed.",
+    "Check the BLUE, THEN BLUER cover and text safe areas on a phone.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, thumbnail, date, time zone, and preview before scheduling."
+  ]
+}

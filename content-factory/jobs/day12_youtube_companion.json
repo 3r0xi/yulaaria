@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "content_slot": "youtube_companion",
+  "day": 12,
+  "publish_date": "2026-08-12",
+  "folder": "2026-08-12_D12_BEFORE_THE_BEACH_WAKES",
+  "theme": "The first wave of the day",
+  "cover_text": "THE FIRST\nWAVE",
+  "output_stem": "YA_D12_youtube_companion_v02",
+  "notion_page_url": "https://app.notion.com/p/3a768d57849d8119ad72c85c9ebd0b25",
+  "sources": [
+    {
+      "provider_id": 35627322,
+      "page_url": "https://www.pexels.com/video/serene-ocean-waves-at-dawn-35627322/",
+      "download_url": "https://videos.pexels.com/video-files/35627322/15098299_1080_1920_60fps.mp4",
+      "creator": "Thanzeena Husain",
+      "creator_url": "https://www.pexels.com/@thanzeena",
+      "filename": "pexels_35627322_thanzeena_husain_dawn_waves.mp4",
+      "offset_seconds": 1.0,
+      "clip_duration_seconds": 5.2
+    },
+    {
+      "provider_id": 20160861,
+      "page_url": "https://www.pexels.com/video/a-wave-20160861/",
+      "download_url": "https://videos.pexels.com/video-files/20160861/20160861-hd_1080_1920_30fps.mp4",
+      "creator": "Bien Agusto",
+      "creator_url": "https://www.pexels.com/@bien-agusto-719713845",
+      "filename": "pexels_20160861_bien_agusto_wave_detail.mp4",
+      "offset_seconds": 2.0,
+      "clip_duration_seconds": 5.2
+    },
+    {
+      "provider_id": 37303530,
+      "page_url": "https://www.pexels.com/video/peaceful-sunrise-over-ocean-waves-37303530/",
+      "download_url": "https://videos.pexels.com/video-files/37303530/15801877_1080_1920_60fps.mp4",
+      "creator": "Rachel Roy",
+      "creator_url": "https://www.pexels.com/@rachel-roy-2160968900",
+      "filename": "pexels_37303530_rachel_roy_peaceful_sunrise.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 5.2
+    },
+    {
+      "provider_id": 35259119,
+      "page_url": "https://www.pexels.com/video/tranquil-morning-seascape-at-dawn-35259119/",
+      "download_url": "https://videos.pexels.com/video-files/35259119/14937628_1080_1920_30fps.mp4",
+      "creator": "Engin Akyurt",
+      "creator_url": "https://www.pexels.com/@enginakyurt",
+      "filename": "pexels_35259119_engin_akyurt_morning_seascape.mp4",
+      "offset_seconds": 3.0,
+      "clip_duration_seconds": 5.0
+    }
+  ],
+  "render": {
+    "duration_seconds": 20,
+    "transition_seconds": 0.2,
+    "fps": 30,
+    "template_version": "rhythmic-wave-study-v1",
+    "editing_style": "rhythmic_pattern_repetition",
+    "transition_type": "fade",
+    "cover_source_index": 0,
+    "cover_offset_seconds": 1.0,
+    "audio_sync": {"enabled": true},
+    "text_events": [
+      {"start": 0.2, "end": 4.2, "text": "The first wave sets the pace."},
+      {"start": 16.0, "end": 20.0, "text": "Would you stay for one more?"}
+    ]
+  },
+  "music": {
+    "provider": "kie_suno",
+    "associated_content_id": "YA_D12_youtube_companion_v02",
+    "version": 2,
+    "generate": true,
+    "selected_variation_index": 0,
+    "timeout_seconds": 900,
+    "poll_seconds": 20,
+    "rhythm_seed": 20261812,
+    "creative_notes": "A more rhythmic variation of the Day 12 ocean identity, retaining the three-note family while emphasizing foam, pullback, and repeatable wave cycles.",
+    "licensing_notes": "Archive the Kie response and verify the account's current commercial-use terms before distribution.",
+    "brief": {
+      "model": "auto",
+      "exact_duration_required": true,
+      "target_duration_seconds": 20,
+      "title": "First Wave Pattern 01",
+      "genre": "organic electronic, cinematic ambient percussion",
+      "mood": "fresh, hypnotic, quietly energizing",
+      "style": "minimal rhythmic ocean study with a distinct original motif and tactile ASMR-like transients",
+      "tempo_bpm": 92,
+      "energy": "medium-low with a precise pulse",
+      "instrumentation": "filtered wave noise, soft hand percussion, rounded sub pulse, glassy plucks, brushed texture",
+      "structure": "immediate tactile hook, repeating four-part wave cycle, mid-point pattern interrupt, soft loop return",
+      "hook_timing": "0.0-0.7 seconds",
+      "instrumental": true,
+      "prompt": "Create an original twenty-second instrumental built around the feeling of waves advancing and withdrawing. Open with a tactile transient and a short three-note motif, establish a restrained repeating pulse, create one subtle mid-point surprise, and finish on a breathable tail that loops naturally to the first sound.",
+      "negative_instructions": "vocals, spoken words, recognizable melodies, artist imitation, tropical cliches, ukulele, festival drop, harsh cymbals, aggressive bass, abrupt ending",
+      "style_weight": 0.8,
+      "weirdness": 0.28,
+      "audio_weight": 0.7
+    }
+  },
+  "production_notes": [
+    "Second daily YouTube Short with a distinct four-source repeating wave structure.",
+    "Cuts and the mid-point pattern interrupt are recalculated from the generated track's onsets.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual, music-rights, and metadata approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {"caption": "Companion edit for archive only.", "cta": "Watch the wave pattern.", "hashtags": ["yulaariastudio"], "music_search": "Original Yula track First Wave Pattern 01.", "schedule_notes": "Do not schedule this companion to Instagram."},
+    "facebook": {"caption": "Companion edit for archive only.", "cta": "Watch the wave pattern.", "hashtags": ["yulaariastudio"], "music_search": "Original Yula track First Wave Pattern 01.", "schedule_notes": "Do not schedule this companion to Facebook."},
+    "tiktok": {"caption": "Companion edit for archive only.", "cta": "Watch the wave pattern.", "hashtags": ["yulaariastudio"], "music_search": "Original Yula track First Wave Pattern 01.", "schedule_notes": "Do not schedule this companion to TikTok."},
+    "youtube_shorts": {
+      "title": "The first wave sets the pace",
+      "caption": "Every wave repeats the same movement without ever looking exactly the same. This twenty-second ocean study turns four dawn sequences into one quiet, rhythmic loop.",
+      "cta": "Would you stay for one more wave?",
+      "hashtags": ["yulaariastudio", "oceanwaves", "sunrise", "visualstudy", "shorts"],
+      "music_search": "Use the approved original Yula track First Wave Pattern 01.",
+      "schedule_notes": "Companion Short; schedule at 20:30 Europe/Warsaw, category 19, no synthetic-content disclosure."
+    },
+    "threads": {"caption": "Companion edit for archive only.", "cta": "Watch the wave pattern.", "hashtags": ["yulaariastudio"], "music_search": "Original Yula track First Wave Pattern 01.", "schedule_notes": "Do not schedule this companion to Threads."},
+    "x": {"caption": "Companion edit for archive only.", "cta": "Watch the wave pattern.", "hashtags": ["yulaariastudio"], "music_search": "Original Yula track First Wave Pattern 01.", "schedule_notes": "Do not schedule this companion to X."}
+  },
+  "checklist": [
+    "Watch both companion masters and confirm the four wave phases remain distinct.",
+    "Confirm the 20-second loop and onset-aligned pattern interrupt feel intentional.",
+    "Confirm 1080 x 1920, H.264, 30 fps, AAC audio, and loudness QA.",
+    "Confirm all Pexels and Kie source, license, request, response, and hash records exist.",
+    "Schedule only to YouTube Shorts at the companion slot after approval."
+  ]
+}

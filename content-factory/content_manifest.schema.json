@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yulaariastudio.local/schemas/content-manifest.schema.json",
+  "title": "Yula Aria Content Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "production_status",
+    "day",
+    "publish_date",
+    "theme",
+    "cover_text",
+    "folder",
+    "sources",
+    "render",
+    "platforms"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "production_status": { "type": "string", "enum": ["planned", "assets_selected", "rendered", "qa_passed", "approved"] },
+    "day": { "type": "integer", "minimum": 1, "maximum": 30 },
+    "publish_date": { "type": "string", "format": "date" },
+    "theme": { "type": "string", "minLength": 1 },
+    "cover_text": { "type": "string", "minLength": 1 },
+    "folder": { "type": "string", "minLength": 1 },
+    "notion_page_url": { "type": ["string", "null"], "format": "uri" },
+    "sources": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["asset_type", "provider", "url", "local_path", "sha256", "license_name", "license_checked_on"],
+        "properties": {
+          "asset_type": { "type": "string", "enum": ["video", "photo", "texture", "audio", "font", "graphic"] },
+          "provider": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "creator": { "type": ["string", "null"] },
+          "local_path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+          "license_name": { "type": "string", "minLength": 1 },
+          "license_url": { "type": ["string", "null"], "format": "uri" },
+          "license_evidence_path": { "type": ["string", "null"] },
+          "license_checked_on": { "type": "string", "format": "date" },
+          "selected": { "type": "boolean", "default": false },
+          "provider_id": { "type": ["integer", "string", "null"] },
+          "creator_url": { "type": ["string", "null"] },
+          "offset_seconds": { "type": "number", "minimum": 0 },
+          "clip_duration_seconds": { "type": "number", "exclusiveMinimum": 0 },
+          "fit_mode": { "type": "string", "enum": ["cover", "contain_blur", "contain_color", "pan_zoom"] },
+          "subject_anchor": { "type": "string" }
+        }
+      }
+    },
+    "render": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height", "fps", "video_codec", "music_policy", "template_version"],
+      "properties": {
+        "width": { "type": "integer", "const": 1080 },
+        "height": { "type": "integer", "const": 1920 },
+        "fps": { "type": "integer", "enum": [24, 25, 30] },
+        "video_codec": { "type": "string", "const": "h264" },
+        "duration_seconds": { "type": "number", "exclusiveMinimum": 0, "maximum": 120 },
+        "music_policy": { "type": "string", "enum": ["no_music_platform_added", "clean_silent_master_preserved"] },
+        "template_version": { "type": "string", "minLength": 1 },
+        "output_stem": { "type": "string" },
+        "overlay_file": { "type": "string" },
+        "cover_overlay_file": { "type": "string" },
+        "cover_source_index": { "type": "integer", "minimum": 0 },
+        "cover_offset_seconds": { "type": "number", "minimum": 0 },
+        "transition_seconds": { "type": "number", "minimum": 0 },
+        "transition_type": { "type": "string" },
+        "editing_style": { "type": "object" },
+        "audio_sync_enabled": { "type": "boolean" },
+        "rhythm_cues_file": { "type": ["string", "null"] },
+        "pattern_interrupt_seconds": {
+          "type": "array",
+          "items": { "type": "number", "minimum": 0 }
+        },
+        "reverse_source_indices": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 0 }
+        },
+        "carousel": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "enabled": { "type": "boolean" },
+            "source_indices": { "type": "array", "items": { "type": "integer", "minimum": 0 } },
+            "offset_seconds": { "type": "array", "items": { "type": "number", "minimum": 0 } }
+          }
+        },
+        "audio": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "master_mix", "score_file", "seed"],
+          "properties": {
+            "mode": { "type": "string", "enum": ["silent", "original_procedural", "kie_suno_generated", "license_cleared_external"] },
+            "master_mix": { "type": "string", "enum": ["none", "ambience_sfx_only", "full_original_score"] },
+            "score_file": { "type": ["string", "null"] },
+            "seed": { "type": ["integer", "null"] },
+            "audio_file": { "type": ["string", "null"] },
+            "asmr_profile": { "type": ["string", "null"] },
+            "license_record": { "type": ["string", "null"] },
+            "generation": { "type": ["object", "null"] }
+          }
+        }
+      }
+    },
+    "platforms": {
+      "type": "object",
+      "required": ["instagram", "facebook", "tiktok", "youtube_shorts", "threads", "x"],
+      "additionalProperties": false,
+      "properties": {
+        "instagram": { "$ref": "#/$defs/platformCopy" },
+        "facebook": { "$ref": "#/$defs/platformCopy" },
+        "tiktok": { "$ref": "#/$defs/platformCopy" },
+        "youtube_shorts": { "$ref": "#/$defs/platformCopy" },
+        "threads": { "$ref": "#/$defs/platformCopy" },
+        "x": { "$ref": "#/$defs/platformCopy" }
+      }
+    },
+    "operator_notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "production_status": { "enum": ["assets_selected", "rendered", "qa_passed", "approved"] } } },
+      "then": { "properties": { "sources": { "minItems": 1 } } }
+    }
+  ],
+  "$defs": {
+    "platformCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["caption", "hashtags", "music_search"],
+      "properties": {
+        "title": { "type": "string" },
+        "caption": { "type": "string" },
+        "hashtags": {
+          "oneOf": [
+            { "type": "array", "items": { "type": "string" } },
+            { "type": "string" }
+          ]
+        },
+        "cta": { "type": "string" },
+        "music_search": { "type": "string" },
+        "music_reuse_policy": { "type": "string" },
+        "schedule_notes": { "type": "string" }
+      }
+    }
+  }
+}

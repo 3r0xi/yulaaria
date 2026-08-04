@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "day": 11,
+  "publish_date": "2026-08-11",
+  "folder": "2026-08-11_D11_DETAILS_NOT_LOGOS",
+  "theme": "Style is in the details",
+  "gallery_title": "THE DETAILS SPEAK FIRST",
+  "photo_query": "fashion details coat shoes jewelry street style close up hands editorial",
+  "photo_count": 5,
+  "platforms": {
+    "instagram": {"caption": "Style does not always arrive as a complete look. Sometimes it begins with a ring against a sleeve, a polished shoe, or one texture that makes everything around it feel deliberate.", "cta": "Which frame speaks first to you?", "hashtags": ["yulaariastudio", "quietluxury", "fashiondetails", "editorialstyle"], "format": "Five-photo 4:5 carousel", "schedule_notes": "Post at 13:00 as the visual prelude to the evening Reel."},
+    "facebook": {"caption": "The smallest choices often say the most. A single accessory, texture, or color can turn a simple outfit into a complete point of view.", "cta": "Which detail would you choose?", "hashtags": ["yulaariastudio", "fashiondetails", "styleinspiration"], "format": "Five-photo album", "schedule_notes": "Schedule at 13:00 with the strongest close-up first."},
+    "tiktok": {"caption": "Five details, five different ways to change the whole look. Move through the frames slowly and notice which choice catches your attention before you decide why.", "cta": "Shoes, watch, bag, or colors?", "hashtags": ["yulaariastudio", "fashiontok", "quietluxury", "photomode"], "format": "Five-image Photo Mode", "schedule_notes": "Use the 9:16 exports for a manual Photo Mode post."},
+    "threads": {"caption": "The best style rarely looks like it is trying very hard. One small detail gives the rest of the look permission to stay quiet.", "cta": "What detail do you notice first?", "hashtags": ["yulaariastudio", "fashiondetails"], "format": "One image or gallery", "schedule_notes": "Use as a text-led visual companion."},
+    "x": {"caption": "Style usually whispers. One detail gives the rest of the look permission to stay quiet.", "cta": "What do you notice first?", "hashtags": ["yulaariastudio", "fashiondetails"], "format": "One image or gallery", "schedule_notes": "Use one strongest image with the concise question."}
+  },
+  "story_sequence": {"frames": ["Style usually whispers.", "The eye notices before the mind names it.", "What speaks first to you?"], "sticker": "Quiz: SHOES / WATCH / BAG / COLORS", "timing": "Share after the gallery and before the Reel."},
+  "checklist": ["Order the carousel from jewelry or hands to shoes, then finish with the widest styled frame.", "Do not state or imply personal capture or ownership of the featured items.", "Confirm every source record and Pexels license evidence before scheduling.", "Use the 4:5 exports for Instagram and Facebook; use 9:16 only for TikTok Photo Mode."]
+}

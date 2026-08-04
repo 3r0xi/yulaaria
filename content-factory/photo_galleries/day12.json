@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "day": 12,
+  "publish_date": "2026-08-12",
+  "folder": "2026-08-12_D12_BEFORE_THE_BEACH_WAKES",
+  "theme": "Ocean morning",
+  "gallery_title": "BEFORE THE COAST GETS LOUD",
+  "photo_query": "empty beach sunrise footprints sand calm ocean dawn",
+  "photo_count": 1,
+  "platforms": {
+    "instagram": {
+      "caption": "A quiet coast does not need much to hold attention. One line of foam, a soft horizon, and the trace of footsteps are enough to suggest that the morning has already started a story.",
+      "cta": "Would you frame the horizon or follow the footprints?",
+      "hashtags": ["yulaariastudio", "oceanmorning", "sunrisebeach", "slowtravel"],
+      "format": "Single 4:5 editorial photo",
+      "schedule_notes": "Post at 13:00 as the visual prelude to the evening Reel."
+    },
+    "facebook": {
+      "caption": "Before the beach fills with plans, a single image can hold the whole mood: cool sand, a calm horizon, and footsteps leading somewhere beyond the frame.",
+      "cta": "Where do you imagine the footprints lead?",
+      "hashtags": ["yulaariastudio", "oceanmorning", "sunrise"],
+      "format": "Single 4:5 photo post",
+      "schedule_notes": "Schedule at 13:00 with the complete story in the caption."
+    },
+    "tiktok": {
+      "caption": "One photograph, one unfinished story: the coast is empty, the light is still soft, and the only clue is a line of footprints moving out of frame.",
+      "cta": "Follow them or stay by the water?",
+      "hashtags": ["yulaariastudio", "photomode", "sunrisetok", "oceanmorning"],
+      "format": "Single 9:16 Photo Mode image",
+      "schedule_notes": "Use the 9:16 export for manual Photo Mode publishing."
+    },
+    "threads": {
+      "caption": "An empty beach photograph always feels like the middle of a story. Someone arrived before us, left a line of footprints, and disappeared beyond the edge of the frame.",
+      "cta": "What happened just before this image?",
+      "hashtags": ["yulaariastudio", "oceanmorning"],
+      "format": "Single image",
+      "schedule_notes": "Use as a text-led visual companion to the morning microstory."
+    },
+    "x": {
+      "caption": "An empty beach photograph feels like the middle of a story: someone arrived before us, left a line of footprints, and disappeared beyond the frame.",
+      "cta": "What happened just before this image?",
+      "hashtags": ["yulaariastudio", "oceanmorning"],
+      "format": "Single image",
+      "schedule_notes": "Pair the image with the concise narrative question."
+    }
+  },
+  "story_sequence": {
+    "frames": ["Early light, no agenda.", "Worth the early alarm?"],
+    "sticker": "Poll: YES / ASK ME LATER",
+    "timing": "Share after the photo post and before the Reel."
+  },
+  "checklist": [
+    "Confirm the selected photograph shows a calm horizon, clear foreground texture, and useful negative space.",
+    "Do not state or imply that Yula Aria personally photographed the scene.",
+    "Confirm the source record, Pexels license evidence, creator page, and SHA-256 hash before scheduling.",
+    "Use the 4:5 export for Instagram and Facebook; use 9:16 only for TikTok Photo Mode and Stories."
+  ]
+}

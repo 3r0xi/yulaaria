@@ -1,0 +1,13 @@
+{
+  "duration_seconds": 15,
+  "seed": 20260801,
+  "bpm": 82,
+  "root_midi": 50,
+  "scale": "minor_pentatonic",
+  "mood": "cinematic_calm",
+  "ambience": 0.22,
+  "pulse": 0.16,
+  "melody": 0.10,
+  "impacts": 0.14,
+  "sample_rate": 48000
+}

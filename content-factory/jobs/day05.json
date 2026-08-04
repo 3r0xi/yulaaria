@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "day": 5,
+  "publish_date": "2026-08-05",
+  "folder": "2026-08-05_D05_AFTER_THE_RAIN",
+  "theme": "Rain after dark",
+  "cover_text": "AFTER THE RAIN",
+  "output_stem": "YA_D05_rain_after_dark_v01",
+  "sources": [
+    {
+      "provider_id": 8549582,
+      "page_url": "https://www.pexels.com/video/dripping-water-from-a-glass-window-8549582/",
+      "download_url": "https://www.pexels.com/download/video/8549582/",
+      "creator": "Taryn Elliott",
+      "filename": "pexels_8549582_taryn_elliott_rain_window.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 1.5
+    },
+    {
+      "provider_id": 9921064,
+      "page_url": "https://www.pexels.com/video/a-rainy-night-in-a-city-9921064/",
+      "download_url": "https://www.pexels.com/download/video/9921064/",
+      "creator": "Evgenij Mikhailov",
+      "filename": "pexels_9921064_evgenij_mikhailov_rainy_city.mp4",
+      "offset_seconds": 0.8,
+      "clip_duration_seconds": 2.3
+    },
+    {
+      "provider_id": 13961716,
+      "page_url": "https://www.pexels.com/video/person-with-umbrella-on-plaza-in-evening-13961716/",
+      "download_url": "https://www.pexels.com/download/video/13961716/",
+      "creator": "Julio Lopez",
+      "filename": "pexels_13961716_julio_lopez_umbrella_plaza.mp4",
+      "offset_seconds": 0.8,
+      "clip_duration_seconds": 2.4
+    },
+    {
+      "provider_id": 17243363,
+      "page_url": "https://www.pexels.com/video/a-busy-street-in-the-city-at-night-17243363/",
+      "download_url": "https://www.pexels.com/download/video/17243363/",
+      "creator": "KADO FUETA",
+      "filename": "pexels_17243363_kado_fueta_blurred_city_lights.mp4",
+      "offset_seconds": 0.8,
+      "clip_duration_seconds": 2.3
+    },
+    {
+      "provider_id": 8549582,
+      "page_url": "https://www.pexels.com/video/dripping-water-from-a-glass-window-8549582/",
+      "download_url": "https://www.pexels.com/download/video/8549582/",
+      "creator": "Taryn Elliott",
+      "filename": "pexels_8549582_taryn_elliott_rain_window.mp4",
+      "offset_seconds": 0.5,
+      "clip_duration_seconds": 1.5
+    }
+  ],
+  "render": {
+    "duration_seconds": 10,
+    "fps": 30,
+    "template_version": "rain-loop-v1",
+    "cover_source_index": 1,
+    "cover_offset_seconds": 1.2,
+    "reverse_source_indices": [4],
+    "text_events": [
+      {"start": 0.0, "end": 2.0, "text": "Cities become honest after midnight."},
+      {"start": 8.0, "end": 10.0, "text": "Rainy nights or clear sunsets?"}
+    ]
+  },
+  "audio_score": {
+    "duration_seconds": 10,
+    "seed": 20260805,
+    "bpm": 64,
+    "root_midi": 43,
+    "scale": "minor_pentatonic",
+    "mood": "rainy_neon_after_dark",
+    "ambience": 0.42,
+    "pulse": 0.06,
+    "melody": 0.04,
+    "impacts": 0.03,
+    "sample_rate": 48000
+  },
+  "production_notes": [
+    "Master: 1080 x 1920, 30 fps, H.264, 10 seconds.",
+    "The opening rain-window clip returns in reverse at the end to create a soft visual loop.",
+    "The procedural score emphasizes filtered ambience; add a platform-native atmospheric track only after upload.",
+    "Preserve the silent master for platforms where rain texture works better without music.",
+    "Curated Pexels material must not be described as personally filmed.",
+    "Human visual and audio approval is required before scheduling."
+  ],
+  "platforms": {
+    "instagram": {
+      "caption": "Rain, empty streets, and lights reflected where they were never meant to be. Cities become honest after midnight.",
+      "cta": "Rainy nights or clear sunsets?",
+      "hashtags": ["#yulaariastudio", "#RainyNight", "#CityAfterDark", "#CinematicMood", "#UrbanReflections"],
+      "music_search": "In Instagram or Edits, search for dark ambient rain, minimal nocturnal pulse, or moody city sound; keep it understated.",
+      "music_reuse_policy": "Reuse on Facebook only when Meta confirms clearance for both placements.",
+      "schedule_notes": "Instagram Reel; use AFTER THE RAIN as the dark cinematic cover."
+    },
+    "facebook": {
+      "caption": "Rain, empty streets, and lights reflected where they were never meant to be. Which city would you want to photograph after midnight?",
+      "cta": "Name your favorite night city.",
+      "hashtags": ["#yulaariastudio", "#RainyNight", "#UrbanMood"],
+      "music_search": "Use the same Meta-cleared track as Instagram, the original procedural score, or the silent master.",
+      "music_reuse_policy": "Confirm Facebook clearance inside Meta before reusing Instagram music.",
+      "schedule_notes": "Facebook Reel; ask the city question in the first caption line."
+    },
+    "tiktok": {
+      "caption": "Unpopular opinion: rainy cities are more photogenic than sunny ones.",
+      "cta": "Which city looks best after midnight?",
+      "hashtags": ["#yulaariastudio", "#RainyCity", "#NightTok", "#CinematicTok"],
+      "music_search": "Choose a current atmospheric night sound or restrained dark pulse inside TikTok; use the Commercial Music Library when required.",
+      "music_reuse_policy": "Keep TikTok-library music on TikTok; use the procedural or silent master elsewhere.",
+      "schedule_notes": "Upload the loop directly. Avoid a busy template; the rain and reflections are the hook."
+    },
+    "youtube_shorts": {
+      "title": "AFTER THE RAIN | Cities after midnight",
+      "caption": "Rain, wet streets, and reflected city light in a compact 10-second night loop.",
+      "cta": "Which city would you photograph at 2 a.m.?",
+      "hashtags": ["#yulaariastudio", "#RainyNight", "#Shorts"],
+      "music_search": "Use the original procedural score or choose a subtle atmospheric track inside the Shorts library.",
+      "music_reuse_policy": "Do not reuse a Shorts-library track outside YouTube without separate permission.",
+      "schedule_notes": "Upload the clean 10-second loop and use the distinct AFTER THE RAIN title."
+    },
+    "threads": {
+      "caption": "Unpopular opinion: rainy cities are more photogenic than sunny ones. Which city would you photograph at 2 a.m.?",
+      "cta": "Reply with one city.",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use the silent or procedural-audio master.",
+      "music_reuse_policy": "Do not carry licensed TikTok, Meta, or Shorts music into Threads.",
+      "schedule_notes": "Text-led post; attach the clean loop if it adds atmosphere."
+    },
+    "x": {
+      "caption": "Unpopular opinion: rainy cities are more photogenic than sunny ones.",
+      "cta": "Which city looks best after midnight?",
+      "hashtags": ["#yulaariastudio"],
+      "music_search": "Use the silent master or original procedural score.",
+      "music_reuse_policy": "Do not reuse licensed platform music on X.",
+      "schedule_notes": "Upload the clean loop directly; its short duration should loop naturally."
+    }
+  },
+  "stories": {
+    "frames": ["Cities become honest after midnight.", "Rainy nights or clear sunsets?"],
+    "sticker": "Poll: RAIN / SUNSET",
+    "timing": "Publish the looping rain clip after the main Reel on Instagram and Facebook."
+  },
+  "checklist": [
+    "Open both MP4 masters, cover, and contact sheet; confirm the rain-window return makes the loop feel intentional.",
+    "Confirm source pages, creators, license evidence, and SHA-256 hashes in manifest.json.",
+    "Confirm 1080 x 1920, H.264, 10-second duration, and audio-stream checks passed.",
+    "Listen once with the procedural score and once silent; choose the stronger base per platform.",
+    "Confirm there is no watermark, false personal-filming claim, or unlicensed external audio.",
+    "Add platform music natively and record the actual track in this file.",
+    "Verify caption, CTA, hashtags, thumbnail, date, time zone, and preview before scheduling."
+  ]
+}
